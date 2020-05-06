@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Connector_Apple)(type Legacy)(uri ${KIPRJMOD}/../lib/Connector_Apple.lib)(options "")(descr ""))
+  (lib (name HPV_Riser-rescue)(type Legacy)(uri ${KIPRJMOD}/HPV_Riser-rescue.lib)(options "")(descr ""))
+)

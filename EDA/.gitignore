@@ -1,0 +1,11 @@
+# macOS default zip file
+Archive.zip
+
+# KiCad backup files
+*-bak
+
+# Gerber files
+*.drl
+*.gbr
+*.ps
+

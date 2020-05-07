@@ -9,7 +9,7 @@ Date "2020-05-06"
 Rev "1.0"
 Comp "Lostwave"
 Comment1 "https://68kmla.org"
-Comment2 "https://github.com/demik/oldworld/tree/master/HPV%20Riser"
+Comment2 "https://github.com/demik/oldworld/tree/master/EDA/HPV%20Riser"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -1,5 +1,5 @@
-# macOS default zip file
-Archive.zip
+# tmp zip files
+*.zip
 
 # KiCad backup files
 *-bak

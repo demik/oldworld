@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name SIMM-68)(type KiCad)(uri ${KIPRJMOD}/SIMM-68.pretty)(options "")(descr ""))
+  (lib (name Connector_Apple)(type KiCad)(uri ${KIPRJMOD}/../lib/Connector_Apple.pretty)(options "")(descr ""))
 )

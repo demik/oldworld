@@ -1,0 +1,646 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Apple:SIMM-68 J2
+U 1 1 5EB9344A
+P 2000 6500
+F 0 "J2" H 2000 6500 50  0000 C CNN
+F 1 "SIMM-68" H 2000 6400 50  0000 C CNN
+F 2 "Connector_Apple:SIMM-68" H 2000 5400 50  0000 C CNN
+F 3 "~" H 3400 7450 50  0001 C CNN
+	1    2000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Apple:SIMM-68 J2
+U 2 1 5EB9D510
+P 4500 6500
+F 0 "J2" H 4500 6500 50  0000 C CNN
+F 1 "SIMM-68" H 4500 6400 50  0000 C CNN
+F 2 "Connector_Apple:SIMM-68" H 4500 5400 50  0000 C CNN
+F 3 "~" H 5900 7450 50  0001 C CNN
+	2    4500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5EBA7215
+P 1600 5000
+F 0 "#PWR0101" H 1600 4850 50  0001 C CNN
+F 1 "+5V" H 1615 5173 50  0000 C CNN
+F 2 "" H 1600 5000 50  0001 C CNN
+F 3 "" H 1600 5000 50  0001 C CNN
+	1    1600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5EBA80C0
+P 4100 5000
+F 0 "#PWR0102" H 4100 4850 50  0001 C CNN
+F 1 "+5V" H 4115 5173 50  0000 C CNN
+F 2 "" H 4100 5000 50  0001 C CNN
+F 3 "" H 4100 5000 50  0001 C CNN
+	1    4100 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5300 1600 5150
+Wire Wire Line
+	1700 5300 1700 5150
+Wire Wire Line
+	1700 5150 1600 5150
+Connection ~ 1600 5150
+Wire Wire Line
+	1600 5150 1600 5000
+Wire Wire Line
+	4100 5300 4100 5000
+$Comp
+L power:GND #PWR0103
+U 1 1 5EBA8FC8
+P 2600 5300
+F 0 "#PWR0103" H 2600 5050 50  0001 C CNN
+F 1 "GND" H 2605 5127 50  0000 C CNN
+F 2 "" H 2600 5300 50  0001 C CNN
+F 3 "" H 2600 5300 50  0001 C CNN
+	1    2600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EBA97E0
+P 5100 5300
+F 0 "#PWR0104" H 5100 5050 50  0001 C CNN
+F 1 "GND" H 5105 5127 50  0000 C CNN
+F 2 "" H 5100 5300 50  0001 C CNN
+F 3 "" H 5100 5300 50  0001 C CNN
+	1    5100 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5300 2400 5300
+Connection ~ 2400 5300
+Wire Wire Line
+	2400 5300 2600 5300
+Wire Wire Line
+	4500 5300 4600 5300
+Connection ~ 4600 5300
+Wire Wire Line
+	4600 5300 4700 5300
+Connection ~ 4700 5300
+Wire Wire Line
+	4700 5300 4800 5300
+Connection ~ 4800 5300
+Wire Wire Line
+	4800 5300 4900 5300
+Connection ~ 4900 5300
+Wire Wire Line
+	4900 5300 5100 5300
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EBAA6B1
+P 1600 5150
+F 0 "#FLG0101" H 1600 5225 50  0001 C CNN
+F 1 "PWR_FLAG" V 1600 5277 50  0000 L CNN
+F 2 "" H 1600 5150 50  0001 C CNN
+F 3 "~" H 1600 5150 50  0001 C CNN
+	1    1600 5150
+	0    -1   -1   0   
+$EndComp
+Text Label 1200 5800 2    50   ~ 0
+A0
+Text Label 1200 5900 2    50   ~ 0
+A1
+Text Label 1200 6000 2    50   ~ 0
+A2
+Text Label 1200 6100 2    50   ~ 0
+A3
+Text Label 1200 6200 2    50   ~ 0
+A4
+Text Label 1200 6300 2    50   ~ 0
+A5
+Text Label 1200 6500 2    50   ~ 0
+SDQ0
+Text Label 1200 6600 2    50   ~ 0
+SDQ1
+Text Label 1200 6700 2    50   ~ 0
+SDQ2
+Text Label 1200 6800 2    50   ~ 0
+SDQ3
+Text Label 1200 6900 2    50   ~ 0
+SDQ4
+Text Label 1200 7000 2    50   ~ 0
+SDQ5
+Text Label 1200 7100 2    50   ~ 0
+SDQ6
+Text Label 1200 7200 2    50   ~ 0
+SDQ7
+Wire Wire Line
+	1200 5800 1300 5800
+Wire Wire Line
+	1200 5900 1300 5900
+Wire Wire Line
+	1200 6000 1300 6000
+Wire Wire Line
+	1200 6100 1300 6100
+Wire Wire Line
+	1200 6200 1300 6200
+Wire Wire Line
+	1200 6300 1300 6300
+Wire Wire Line
+	1200 6500 1300 6500
+Wire Wire Line
+	1200 6600 1300 6600
+Wire Wire Line
+	1200 6700 1300 6700
+Wire Wire Line
+	1200 6800 1300 6800
+Wire Wire Line
+	1200 6900 1300 6900
+Wire Wire Line
+	1200 7000 1300 7000
+Wire Wire Line
+	1200 7100 1300 7100
+Wire Wire Line
+	1200 7200 1300 7200
+Text Label 2800 5800 0    50   ~ 0
+DQ0
+Text Label 2800 5900 0    50   ~ 0
+DQ1
+Text Label 2800 6000 0    50   ~ 0
+DQ2
+Text Label 2800 6100 0    50   ~ 0
+DQ3
+Text Label 2800 6200 0    50   ~ 0
+DQ4
+Text Label 2800 6300 0    50   ~ 0
+DQ5
+Text Label 2800 6400 0    50   ~ 0
+DQ6
+Text Label 2800 6500 0    50   ~ 0
+DQ7
+Text Label 2800 6700 0    50   ~ 0
+WE0
+Text Label 2800 6800 0    50   ~ 0
+SE0
+Text Label 2800 6900 0    50   ~ 0
+CAS0
+Text Label 2800 7000 0    50   ~ 0
+RAS
+Text Label 2800 7100 0    50   ~ 0
+DR-OE0
+Text Label 2800 7200 0    50   ~ 0
+DSF
+Wire Wire Line
+	2700 5800 2800 5800
+Wire Wire Line
+	2700 5900 2800 5900
+Wire Wire Line
+	2700 6000 2800 6000
+Wire Wire Line
+	2700 6100 2800 6100
+Wire Wire Line
+	2700 6200 2800 6200
+Wire Wire Line
+	2700 6300 2800 6300
+Wire Wire Line
+	2700 6400 2800 6400
+Wire Wire Line
+	2700 6500 2800 6500
+Wire Wire Line
+	2700 7200 2800 7200
+Wire Wire Line
+	2700 7100 2800 7100
+Wire Wire Line
+	2700 7000 2800 7000
+Wire Wire Line
+	2700 6900 2800 6900
+Wire Wire Line
+	2700 6800 2800 6800
+Wire Wire Line
+	2700 6700 2800 6700
+Text Label 3700 5800 2    50   ~ 0
+A6
+Text Label 3700 5900 2    50   ~ 0
+A7
+Text Label 3700 6000 2    50   ~ 0
+A8
+Text Label 3700 6200 2    50   ~ 0
+SDQ8
+Text Label 3700 6300 2    50   ~ 0
+SDQ9
+Text Label 3700 6400 2    50   ~ 0
+SDQ10
+Text Label 3700 6500 2    50   ~ 0
+SDQ11
+Text Label 3700 6600 2    50   ~ 0
+SDQ12
+Text Label 3700 6700 2    50   ~ 0
+SDQ13
+Text Label 3700 6800 2    50   ~ 0
+SDQ14
+Text Label 3700 6900 2    50   ~ 0
+SDQ15
+Text Label 3700 7050 2    50   ~ 0
+SQ10
+Text Label 3700 7200 2    50   ~ 0
+SC
+Wire Wire Line
+	3700 5800 3800 5800
+Wire Wire Line
+	3700 5900 3800 5900
+Wire Wire Line
+	3700 6000 3800 6000
+Wire Wire Line
+	3700 6200 3800 6200
+Wire Wire Line
+	3700 6300 3800 6300
+Wire Wire Line
+	3700 6400 3800 6400
+Wire Wire Line
+	3700 6500 3800 6500
+Wire Wire Line
+	3700 6600 3800 6600
+Wire Wire Line
+	3700 6700 3800 6700
+Wire Wire Line
+	3700 6800 3800 6800
+Wire Wire Line
+	3700 6900 3800 6900
+Wire Wire Line
+	3700 7050 3800 7050
+Wire Wire Line
+	3700 7200 3800 7200
+Text Label 5300 5800 0    50   ~ 0
+DQ8
+Text Label 5300 5900 0    50   ~ 0
+DQ9
+Text Label 5300 6150 0    50   ~ 0
+DQ11
+Text Label 5300 6250 0    50   ~ 0
+DQ12
+Text Label 5300 6350 0    50   ~ 0
+DQ13
+Text Label 5300 6450 0    50   ~ 0
+DQ14
+Text Label 5300 6550 0    50   ~ 0
+DQ15
+Text Label 5300 6750 0    50   ~ 0
+WE1
+Text Label 5300 6850 0    50   ~ 0
+SE1
+Text Label 5300 6950 0    50   ~ 0
+CAS1
+Text Label 5300 7050 0    50   ~ 0
+DT-OE1
+Wire Wire Line
+	5200 5800 5300 5800
+Wire Wire Line
+	5200 5900 5300 5900
+Wire Wire Line
+	5200 6150 5300 6150
+Wire Wire Line
+	5200 6250 5300 6250
+Wire Wire Line
+	5200 6350 5300 6350
+Wire Wire Line
+	5200 6450 5300 6450
+Wire Wire Line
+	5200 6550 5300 6550
+Wire Wire Line
+	5200 6750 5300 6750
+Wire Wire Line
+	5200 6850 5300 6850
+Wire Wire Line
+	5200 6950 5300 6950
+Wire Wire Line
+	5200 7050 5300 7050
+$Comp
+L Connector_Apple:SIMM-68 J1
+U 1 1 5EB7D08C
+P 2000 3500
+F 0 "J1" H 2000 3500 50  0000 C CNN
+F 1 "SIMM-68" H 2000 3400 50  0000 C CNN
+F 2 "Connector_Apple:SIMM-68" H 2000 2400 50  0000 C CNN
+F 3 "~" H 3400 4450 50  0001 C CNN
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Apple:SIMM-68 J1
+U 2 1 5EB7D096
+P 4500 3500
+F 0 "J1" H 4500 3500 50  0000 C CNN
+F 1 "SIMM-68" H 4500 3400 50  0000 C CNN
+F 2 "Connector_Apple:SIMM-68" H 4500 2400 50  0000 C CNN
+F 3 "~" H 5900 4450 50  0001 C CNN
+	2    4500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 5EB7D0A0
+P 1600 2000
+F 0 "#PWR0105" H 1600 1850 50  0001 C CNN
+F 1 "+5V" H 1615 2173 50  0000 C CNN
+F 2 "" H 1600 2000 50  0001 C CNN
+F 3 "" H 1600 2000 50  0001 C CNN
+	1    1600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0106
+U 1 1 5EB7D0AA
+P 4100 2000
+F 0 "#PWR0106" H 4100 1850 50  0001 C CNN
+F 1 "+5V" H 4115 2173 50  0000 C CNN
+F 2 "" H 4100 2000 50  0001 C CNN
+F 3 "" H 4100 2000 50  0001 C CNN
+	1    4100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2300 1600 2150
+Wire Wire Line
+	1700 2300 1700 2150
+Wire Wire Line
+	1700 2150 1600 2150
+Connection ~ 1600 2150
+Wire Wire Line
+	1600 2150 1600 2000
+Wire Wire Line
+	4100 2300 4100 2000
+$Comp
+L power:GND #PWR0107
+U 1 1 5EB7D0BA
+P 2600 2300
+F 0 "#PWR0107" H 2600 2050 50  0001 C CNN
+F 1 "GND" H 2605 2127 50  0000 C CNN
+F 2 "" H 2600 2300 50  0001 C CNN
+F 3 "" H 2600 2300 50  0001 C CNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5EB7D0C4
+P 5100 2300
+F 0 "#PWR0108" H 5100 2050 50  0001 C CNN
+F 1 "GND" H 5105 2127 50  0000 C CNN
+F 2 "" H 5100 2300 50  0001 C CNN
+F 3 "" H 5100 2300 50  0001 C CNN
+	1    5100 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2300 2400 2300
+Connection ~ 2400 2300
+Wire Wire Line
+	2400 2300 2600 2300
+Wire Wire Line
+	4500 2300 4600 2300
+Connection ~ 4600 2300
+Wire Wire Line
+	4600 2300 4700 2300
+Connection ~ 4700 2300
+Wire Wire Line
+	4700 2300 4800 2300
+Connection ~ 4800 2300
+Wire Wire Line
+	4800 2300 4900 2300
+Connection ~ 4900 2300
+Wire Wire Line
+	4900 2300 5100 2300
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EB7D0DA
+P 1600 2150
+F 0 "#FLG0102" H 1600 2225 50  0001 C CNN
+F 1 "PWR_FLAG" V 1600 2277 50  0000 L CNN
+F 2 "" H 1600 2150 50  0001 C CNN
+F 3 "~" H 1600 2150 50  0001 C CNN
+	1    1600 2150
+	0    -1   -1   0   
+$EndComp
+Text Label 1200 2800 2    50   ~ 0
+A0
+Text Label 1200 2900 2    50   ~ 0
+A1
+Text Label 1200 3000 2    50   ~ 0
+A2
+Text Label 1200 3100 2    50   ~ 0
+A3
+Text Label 1200 3200 2    50   ~ 0
+A4
+Text Label 1200 3300 2    50   ~ 0
+A5
+Text Label 1200 3500 2    50   ~ 0
+SDQ0
+Text Label 1200 3600 2    50   ~ 0
+SDQ1
+Text Label 1200 3700 2    50   ~ 0
+SDQ2
+Text Label 1200 3800 2    50   ~ 0
+SDQ3
+Text Label 1200 3900 2    50   ~ 0
+SDQ4
+Text Label 1200 4000 2    50   ~ 0
+SDQ5
+Text Label 1200 4100 2    50   ~ 0
+SDQ6
+Text Label 1200 4200 2    50   ~ 0
+SDQ7
+Wire Wire Line
+	1200 2800 1300 2800
+Wire Wire Line
+	1200 2900 1300 2900
+Wire Wire Line
+	1200 3000 1300 3000
+Wire Wire Line
+	1200 3100 1300 3100
+Wire Wire Line
+	1200 3200 1300 3200
+Wire Wire Line
+	1200 3300 1300 3300
+Wire Wire Line
+	1200 3500 1300 3500
+Wire Wire Line
+	1200 3600 1300 3600
+Wire Wire Line
+	1200 3700 1300 3700
+Wire Wire Line
+	1200 3800 1300 3800
+Wire Wire Line
+	1200 3900 1300 3900
+Wire Wire Line
+	1200 4000 1300 4000
+Wire Wire Line
+	1200 4100 1300 4100
+Wire Wire Line
+	1200 4200 1300 4200
+Text Label 2800 2800 0    50   ~ 0
+DQ0
+Text Label 2800 2900 0    50   ~ 0
+DQ1
+Text Label 2800 3000 0    50   ~ 0
+DQ2
+Text Label 2800 3100 0    50   ~ 0
+DQ3
+Text Label 2800 3200 0    50   ~ 0
+DQ4
+Text Label 2800 3300 0    50   ~ 0
+DQ5
+Text Label 2800 3400 0    50   ~ 0
+DQ6
+Text Label 2800 3500 0    50   ~ 0
+DQ7
+Text Label 2800 3700 0    50   ~ 0
+WE0
+Text Label 2800 3800 0    50   ~ 0
+SE0
+Text Label 2800 3900 0    50   ~ 0
+CAS0
+Text Label 2800 4000 0    50   ~ 0
+RAS
+Text Label 2800 4100 0    50   ~ 0
+DR-OE0
+Text Label 2800 4200 0    50   ~ 0
+DSF
+Wire Wire Line
+	2700 2800 2800 2800
+Wire Wire Line
+	2700 2900 2800 2900
+Wire Wire Line
+	2700 3000 2800 3000
+Wire Wire Line
+	2700 3100 2800 3100
+Wire Wire Line
+	2700 3200 2800 3200
+Wire Wire Line
+	2700 3300 2800 3300
+Wire Wire Line
+	2700 3400 2800 3400
+Wire Wire Line
+	2700 3500 2800 3500
+Wire Wire Line
+	2700 4200 2800 4200
+Wire Wire Line
+	2700 4100 2800 4100
+Wire Wire Line
+	2700 4000 2800 4000
+Wire Wire Line
+	2700 3900 2800 3900
+Wire Wire Line
+	2700 3800 2800 3800
+Wire Wire Line
+	2700 3700 2800 3700
+Text Label 3700 2800 2    50   ~ 0
+A6
+Text Label 3700 2900 2    50   ~ 0
+A7
+Text Label 3700 3000 2    50   ~ 0
+A8
+Text Label 3700 3200 2    50   ~ 0
+SDQ8
+Text Label 3700 3300 2    50   ~ 0
+SDQ9
+Text Label 3700 3400 2    50   ~ 0
+SDQ10
+Text Label 3700 3500 2    50   ~ 0
+SDQ11
+Text Label 3700 3600 2    50   ~ 0
+SDQ12
+Text Label 3700 3700 2    50   ~ 0
+SDQ13
+Text Label 3700 3800 2    50   ~ 0
+SDQ14
+Text Label 3700 3900 2    50   ~ 0
+SDQ15
+Text Label 3700 4050 2    50   ~ 0
+SQ10
+Text Label 3700 4200 2    50   ~ 0
+SC
+Wire Wire Line
+	3700 2800 3800 2800
+Wire Wire Line
+	3700 2900 3800 2900
+Wire Wire Line
+	3700 3000 3800 3000
+Wire Wire Line
+	3700 3200 3800 3200
+Wire Wire Line
+	3700 3300 3800 3300
+Wire Wire Line
+	3700 3400 3800 3400
+Wire Wire Line
+	3700 3500 3800 3500
+Wire Wire Line
+	3700 3600 3800 3600
+Wire Wire Line
+	3700 3700 3800 3700
+Wire Wire Line
+	3700 3800 3800 3800
+Wire Wire Line
+	3700 3900 3800 3900
+Wire Wire Line
+	3700 4050 3800 4050
+Wire Wire Line
+	3700 4200 3800 4200
+Text Label 5300 2800 0    50   ~ 0
+DQ8
+Text Label 5300 2900 0    50   ~ 0
+DQ9
+Text Label 5300 3150 0    50   ~ 0
+DQ11
+Text Label 5300 3250 0    50   ~ 0
+DQ12
+Text Label 5300 3350 0    50   ~ 0
+DQ13
+Text Label 5300 3450 0    50   ~ 0
+DQ14
+Text Label 5300 3550 0    50   ~ 0
+DQ15
+Text Label 5300 3750 0    50   ~ 0
+WE1
+Text Label 5300 3850 0    50   ~ 0
+SE1
+Text Label 5300 3950 0    50   ~ 0
+CAS1
+Text Label 5300 4050 0    50   ~ 0
+DT-OE1
+Wire Wire Line
+	5200 2800 5300 2800
+Wire Wire Line
+	5200 2900 5300 2900
+Wire Wire Line
+	5200 3150 5300 3150
+Wire Wire Line
+	5200 3250 5300 3250
+Wire Wire Line
+	5200 3350 5300 3350
+Wire Wire Line
+	5200 3450 5300 3450
+Wire Wire Line
+	5200 3550 5300 3550
+Wire Wire Line
+	5200 3750 5300 3750
+Wire Wire Line
+	5200 3850 5300 3850
+Wire Wire Line
+	5200 3950 5300 3950
+Wire Wire Line
+	5200 4050 5300 4050
+$EndSCHEMATC

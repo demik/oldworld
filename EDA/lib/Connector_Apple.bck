@@ -6,6 +6,12 @@ K Macintosh PDS Processor Direct Slot
 F ~
 $ENDCMP
 #
+$CMP SIMM-30
+D SIMM 30 pin socket
+K SIMM 30 pin 8 bit FPM EDO RAM
+F https://en.wikipedia.org/wiki/SIMM
+$ENDCMP
+#
 $CMP SIMM-68
 D SIMM 68 Pin socket
 K SIMM VRAM Macintosh

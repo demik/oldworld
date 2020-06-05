@@ -2,7 +2,7 @@
 *.zip
 
 # KiCad backup files
-*-bak
+*bak
 
 # KiCad cache files
 *-cache

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PowerMac 6100 HPV Riser"
-Date "2020-05-06"
-Rev "1.0"
+Date "2020-06-05"
+Rev "1.1"
 Comp "Lostwave"
 Comment1 "https://68kmla.org"
 Comment2 "https://github.com/demik/oldworld/tree/master/EDA/HPV%20Riser"

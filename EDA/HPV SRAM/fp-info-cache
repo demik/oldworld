@@ -1,4 +1,4 @@
-16939718384388922
+16941312584930922
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6301,11 +6301,11 @@ PowerMac_PDS
 182
 Connector_Apple
 SIMM-30
-
-
+SIMM 30 pins RAM Memory Connector
+SIMM 30 RAM
 0
-0
-0
+30
+30
 Connector_Apple
 SIMM-68
 SIMM 68 Pins used from Video RAM
@@ -6313,6 +6313,13 @@ SIMM 68 VIDEO RAM
 0
 68
 68
+Connector_Apple
+SOJ-40
+
+
+0
+40
+40
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
-Rev ""
+Date "2020-06-08"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -449,7 +449,7 @@ Text Label 1200 3300 2    50   ~ 0
 A5
 Text Label 1200 3500 2    50   ~ 0
 SDQ0
-Text Label 1200 3600 2    50   ~ 0
+Text Label 8200 1500 0    50   ~ 0
 SDQ1
 Text Label 1200 3700 2    50   ~ 0
 SDQ2
@@ -643,4 +643,248 @@ Wire Wire Line
 	5200 3950 5300 3950
 Wire Wire Line
 	5200 4050 5300 4050
+$Comp
+L V52C8:V52C8128 U1
+U 1 1 5EDFDA45
+P 7500 2200
+F 0 "U1" H 7500 2250 50  0000 C CNN
+F 1 "V52C8128" H 7500 2150 50  0000 C CNN
+F 2 "Connector_Apple:SOJ-40" H 10150 3650 50  0001 C CNN
+F 3 "" H 10150 3650 50  0001 C CNN
+	1    7500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L V52C8:V52C8128 U3
+U 1 1 5EE0608A
+P 9750 2200
+F 0 "U3" H 9750 2250 50  0000 C CNN
+F 1 "V52C8128" H 9750 2150 50  0000 C CNN
+F 2 "Connector_Apple:SOJ-40" H 12400 3650 50  0001 C CNN
+F 3 "" H 12400 3650 50  0001 C CNN
+	1    9750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L V52C8:V52C8128 U2
+U 1 1 5EE09BEA
+P 7500 5000
+F 0 "U2" H 7500 5050 50  0000 C CNN
+F 1 "V52C8128" H 7500 4950 50  0000 C CNN
+F 2 "Connector_Apple:SOJ-40" H 10150 6450 50  0001 C CNN
+F 3 "" H 10150 6450 50  0001 C CNN
+	1    7500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L V52C8:V52C8128 U4
+U 1 1 5EE0E466
+P 9750 5000
+F 0 "U4" H 9750 5000 50  0000 C CNN
+F 1 "V52C8128" H 9750 4900 50  0000 C CNN
+F 2 "Connector_Apple:SOJ-40" H 12400 6450 50  0001 C CNN
+F 3 "" H 12400 6450 50  0001 C CNN
+	1    9750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5EE14546
+P 7200 700
+F 0 "#PWR0109" H 7200 550 50  0001 C CNN
+F 1 "+5V" H 7215 873 50  0000 C CNN
+F 2 "" H 7200 700 50  0001 C CNN
+F 3 "" H 7200 700 50  0001 C CNN
+	1    7200 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 5EE1573F
+P 9450 700
+F 0 "#PWR0110" H 9450 550 50  0001 C CNN
+F 1 "+5V" H 9465 873 50  0000 C CNN
+F 2 "" H 9450 700 50  0001 C CNN
+F 3 "" H 9450 700 50  0001 C CNN
+	1    9450 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 900  9450 800 
+Wire Wire Line
+	9550 900  9550 800 
+Wire Wire Line
+	9550 800  9450 800 
+Connection ~ 9450 800 
+Wire Wire Line
+	9450 800  9450 700 
+Wire Wire Line
+	7200 900  7200 800 
+Wire Wire Line
+	7300 900  7300 800 
+Wire Wire Line
+	7300 800  7200 800 
+Connection ~ 7200 800 
+Wire Wire Line
+	7200 800  7200 700 
+$Comp
+L power:+5V #PWR0111
+U 1 1 5EE352DA
+P 7200 3500
+F 0 "#PWR0111" H 7200 3350 50  0001 C CNN
+F 1 "+5V" V 7215 3628 50  0000 L CNN
+F 2 "" H 7200 3500 50  0001 C CNN
+F 3 "" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 5EE35E18
+P 9450 3500
+F 0 "#PWR0112" H 9450 3350 50  0001 C CNN
+F 1 "+5V" V 9465 3628 50  0000 L CNN
+F 2 "" H 9450 3500 50  0001 C CNN
+F 3 "" H 9450 3500 50  0001 C CNN
+	1    9450 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9450 3700 9450 3500
+Wire Wire Line
+	9550 3700 9550 3500
+Wire Wire Line
+	9550 3500 9450 3500
+Connection ~ 9450 3500
+Wire Wire Line
+	7200 3700 7200 3500
+Wire Wire Line
+	7300 3700 7300 3500
+Wire Wire Line
+	7300 3500 7200 3500
+Connection ~ 7200 3500
+$Comp
+L power:GND #PWR0113
+U 1 1 5EE561CB
+P 7800 3500
+F 0 "#PWR0113" H 7800 3250 50  0001 C CNN
+F 1 "GND" V 7805 3372 50  0000 R CNN
+F 2 "" H 7800 3500 50  0001 C CNN
+F 3 "" H 7800 3500 50  0001 C CNN
+	1    7800 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5EE56A48
+P 10050 3500
+F 0 "#PWR0114" H 10050 3250 50  0001 C CNN
+F 1 "GND" V 10055 3372 50  0000 R CNN
+F 2 "" H 10050 3500 50  0001 C CNN
+F 3 "" H 10050 3500 50  0001 C CNN
+	1    10050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 3700 7700 3500
+Wire Wire Line
+	7700 3500 7800 3500
+Connection ~ 7800 3500
+Wire Wire Line
+	7800 3500 7800 3700
+Wire Wire Line
+	9950 3700 9950 3500
+Wire Wire Line
+	9950 3500 10050 3500
+Wire Wire Line
+	10050 3700 10050 3500
+Connection ~ 10050 3500
+$Comp
+L power:GND #PWR0115
+U 1 1 5EE8087D
+P 7800 700
+F 0 "#PWR0115" H 7800 450 50  0001 C CNN
+F 1 "GND" H 7805 527 50  0000 C CNN
+F 2 "" H 7800 700 50  0001 C CNN
+F 3 "" H 7800 700 50  0001 C CNN
+	1    7800 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5EE8156A
+P 10050 700
+F 0 "#PWR0116" H 10050 450 50  0001 C CNN
+F 1 "GND" H 10055 527 50  0000 C CNN
+F 2 "" H 10050 700 50  0001 C CNN
+F 3 "" H 10050 700 50  0001 C CNN
+	1    10050 700 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 900  7800 800 
+Wire Wire Line
+	7700 900  7700 800 
+Wire Wire Line
+	7700 800  7800 800 
+Connection ~ 7800 800 
+Wire Wire Line
+	7800 800  7800 700 
+Wire Wire Line
+	10050 900  10050 800 
+Wire Wire Line
+	9950 900  9950 800 
+Wire Wire Line
+	9950 800  10050 800 
+Connection ~ 10050 800 
+Wire Wire Line
+	10050 800  10050 700 
+Text Label 8200 2900 0    50   ~ 0
+DSF
+Text Label 10450 2900 0    50   ~ 0
+DSF
+Text Label 8200 5700 0    50   ~ 0
+DSF
+Text Label 10450 5700 0    50   ~ 0
+DSF
+Wire Wire Line
+	10450 5700 10350 5700
+Wire Wire Line
+	8200 5700 8100 5700
+Wire Wire Line
+	8200 2900 8100 2900
+Wire Wire Line
+	10450 2900 10350 2900
+Text Label 8200 1400 0    50   ~ 0
+SDQ0
+Wire Wire Line
+	8200 1400 8100 1400
+Wire Wire Line
+	8100 1500 8200 1500
+Text Label 1200 3600 2    50   ~ 0
+SDQ1
+Text Label 8200 2500 0    50   ~ 0
+DR-OE0
+Wire Wire Line
+	8100 2500 8200 2500
+Text Label 6800 2500 2    50   ~ 0
+DQ1
+Wire Wire Line
+	6800 2500 6900 2500
+Text Label 8200 1700 0    50   ~ 0
+SDQ3
+Wire Wire Line
+	8100 1700 8200 1700
+Text Label 8200 1600 0    50   ~ 0
+SDQ2
+Wire Wire Line
+	8100 1600 8200 1600
+Text Label 8200 2600 0    50   ~ 0
+WE0
+Wire Wire Line
+	8100 2600 8200 2600
+Text Label 6800 2700 2    50   ~ 0
+DQ3
+Wire Wire Line
+	6800 2700 6900 2700
 $EndSCHEMATC

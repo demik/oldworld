@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP V52C8128
+D Multiport Video RAM 128k x 8 DRAM & 256 x 8 SAM
+K VIDEO RAM MULTIPORT V52C8
+$ENDCMP
+#
+#End Doc Library

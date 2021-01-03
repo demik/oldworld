@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Mac_Plus_ROM
+D Mac Plus ROM Motherboard Socket
+K Mac Plus ROM Motherboard Socket
+F http://www.synack.net/~bbraun/plusrom/index.html
+$ENDCMP
+#
+$CMP Mac_Plus_ROM_HI
+D Mac Plus ROM Motherboard Socket
+K Mac Plus ROM Motherboard Socket
+F http://www.synack.net/~bbraun/plusrom/index.html
+$ENDCMP
+#
+$CMP Mac_Plus_ROM_LOW
+D Mac Plus ROM Motherboard Socket
+K Mac Plus ROM Motherboard Socket
+F http://www.synack.net/~bbraun/plusrom/index.html
+$ENDCMP
+#
 $CMP PowerMac_PDS
 D PowerMac PDS
 K Macintosh PDS Processor Direct Slot

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Z53C8003VSG
+D SCSI Interface IC 3MB/SEC CMOS SCSI I
+F https://www.mouser.fr/datasheet/2/450/ps0108-33056.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "MacSnap SCSI Reloaded"
-Date "2021-01-04"
-Rev "0.5"
+Date "2021-01-10"
+Rev "0.6"
 Comp "Lostwave"
 Comment1 "https://68kmla.org"
 Comment2 "https://github.com/demik/oldworld/tree/master/EDA/MacSnap%20SCSI"
@@ -874,649 +874,383 @@ F 3 "" H 9650 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9650 4700 9750 4700
-NoConn ~ 5150 2250
+NoConn ~ 5450 4300
 $Comp
 L Connector_Generic:Conn_02x25_Odd_Even J1
 U 1 1 5FF910D7
-P 5350 2250
-F 0 "J1" H 5400 3667 50  0000 C CNN
-F 1 "SCSI IDC-50" H 5400 3576 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical" H 5350 2250 50  0001 C CNN
-F 3 "~" H 5350 2250 50  0001 C CNN
-	1    5350 2250
+P 5650 4300
+F 0 "J1" H 5700 5717 50  0000 C CNN
+F 1 "SCSI IDC-50" H 5700 5626 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical" H 5650 4300 50  0001 C CNN
+F 3 "~" H 5650 4300 50  0001 C CNN
+	1    5650 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1050 5000 1050
+	5450 3100 5300 3100
 Wire Wire Line
-	5000 1050 5000 1150
+	5300 3100 5300 3200
 $Comp
 L power:GND #PWR0116
 U 1 1 5FFF5948
-P 5000 3650
-F 0 "#PWR0116" H 5000 3400 50  0001 C CNN
-F 1 "GND" H 5005 3477 50  0000 C CNN
-F 2 "" H 5000 3650 50  0001 C CNN
-F 3 "" H 5000 3650 50  0001 C CNN
-	1    5000 3650
+P 5300 5700
+F 0 "#PWR0116" H 5300 5450 50  0001 C CNN
+F 1 "GND" H 5305 5527 50  0000 C CNN
+F 2 "" H 5300 5700 50  0001 C CNN
+F 3 "" H 5300 5700 50  0001 C CNN
+	1    5300 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1150 5000 1150
-Connection ~ 5000 1150
+	5450 3200 5300 3200
+Connection ~ 5300 3200
 Wire Wire Line
-	5000 1150 5000 1250
+	5300 3200 5300 3300
 Wire Wire Line
-	5150 1250 5000 1250
-Connection ~ 5000 1250
+	5450 3300 5300 3300
+Connection ~ 5300 3300
 Wire Wire Line
-	5000 1250 5000 1350
+	5300 3300 5300 3400
 Wire Wire Line
-	5000 1350 5150 1350
-Connection ~ 5000 1350
+	5300 3400 5450 3400
+Connection ~ 5300 3400
 Wire Wire Line
-	5000 1350 5000 1450
+	5300 3400 5300 3500
 Wire Wire Line
-	5150 1450 5000 1450
-Connection ~ 5000 1450
+	5450 3500 5300 3500
+Connection ~ 5300 3500
 Wire Wire Line
-	5000 1450 5000 1550
+	5300 3500 5300 3600
 Wire Wire Line
-	5150 1550 5000 1550
-Connection ~ 5000 1550
+	5450 3600 5300 3600
+Connection ~ 5300 3600
 Wire Wire Line
-	5000 1550 5000 1650
+	5300 3600 5300 3700
 Wire Wire Line
-	5150 1650 5000 1650
-Connection ~ 5000 1650
+	5450 3700 5300 3700
+Connection ~ 5300 3700
 Wire Wire Line
-	5000 1650 5000 1750
+	5300 3700 5300 3800
 Wire Wire Line
-	5150 1750 5000 1750
-Connection ~ 5000 1750
+	5450 3800 5300 3800
+Connection ~ 5300 3800
 Wire Wire Line
-	5000 1750 5000 1850
+	5300 3800 5300 3900
 Wire Wire Line
-	5150 1850 5000 1850
-Connection ~ 5000 1850
+	5450 3900 5300 3900
+Connection ~ 5300 3900
 Wire Wire Line
-	5000 1850 5000 1950
+	5300 3900 5300 4000
 Wire Wire Line
-	5150 1950 5000 1950
-Connection ~ 5000 1950
+	5450 4000 5300 4000
+Connection ~ 5300 4000
 Wire Wire Line
-	5000 1950 5000 2050
+	5300 4000 5300 4100
 Wire Wire Line
-	5150 2050 5000 2050
-Connection ~ 5000 2050
+	5450 4100 5300 4100
+Connection ~ 5300 4100
 Wire Wire Line
-	5000 2050 5000 2150
+	5300 4100 5300 4200
 Wire Wire Line
-	5150 2150 5000 2150
-Connection ~ 5000 2150
+	5450 4200 5300 4200
+Connection ~ 5300 4200
 Wire Wire Line
-	5000 2150 5000 2350
+	5300 4200 5300 4400
 Wire Wire Line
-	5150 2350 5000 2350
-Connection ~ 5000 2350
+	5450 4400 5300 4400
+Connection ~ 5300 4400
 Wire Wire Line
-	5000 2350 5000 2450
+	5300 4400 5300 4500
 Wire Wire Line
-	5150 2450 5000 2450
-Connection ~ 5000 2450
+	5450 4500 5300 4500
+Connection ~ 5300 4500
 Wire Wire Line
-	5000 2450 5000 2550
+	5300 4500 5300 4600
 Wire Wire Line
-	5150 2550 5000 2550
-Connection ~ 5000 2550
+	5450 4600 5300 4600
+Connection ~ 5300 4600
 Wire Wire Line
-	5000 2550 5000 2650
+	5300 4600 5300 4700
 Wire Wire Line
-	5150 2650 5000 2650
-Connection ~ 5000 2650
+	5450 4700 5300 4700
+Connection ~ 5300 4700
 Wire Wire Line
-	5000 2650 5000 2750
+	5300 4700 5300 4800
 Wire Wire Line
-	5150 2750 5000 2750
-Connection ~ 5000 2750
+	5450 4800 5300 4800
+Connection ~ 5300 4800
 Wire Wire Line
-	5000 2750 5000 2850
+	5300 4800 5300 4900
 Wire Wire Line
-	5150 2850 5000 2850
-Connection ~ 5000 2850
+	5450 4900 5300 4900
+Connection ~ 5300 4900
 Wire Wire Line
-	5000 2850 5000 2950
+	5300 4900 5300 5000
 Wire Wire Line
-	5150 2950 5000 2950
-Connection ~ 5000 2950
+	5450 5000 5300 5000
+Connection ~ 5300 5000
 Wire Wire Line
-	5000 2950 5000 3050
+	5300 5000 5300 5100
 Wire Wire Line
-	5000 3050 5150 3050
-Connection ~ 5000 3050
+	5300 5100 5450 5100
+Connection ~ 5300 5100
 Wire Wire Line
-	5000 3050 5000 3150
+	5300 5100 5300 5200
 Wire Wire Line
-	5000 3150 5150 3150
-Connection ~ 5000 3150
+	5300 5200 5450 5200
+Connection ~ 5300 5200
 Wire Wire Line
-	5000 3150 5000 3250
+	5300 5200 5300 5300
 Wire Wire Line
-	5000 3250 5150 3250
-Connection ~ 5000 3250
+	5300 5300 5450 5300
+Connection ~ 5300 5300
 Wire Wire Line
-	5000 3250 5000 3350
+	5300 5300 5300 5400
 Wire Wire Line
-	5000 3350 5150 3350
-Connection ~ 5000 3350
+	5300 5400 5450 5400
+Connection ~ 5300 5400
 Wire Wire Line
-	5000 3350 5000 3450
+	5300 5400 5300 5500
 Wire Wire Line
-	5000 3450 5150 3450
-Connection ~ 5000 3450
+	5300 5500 5450 5500
+Connection ~ 5300 5500
 Wire Wire Line
-	5000 3450 5000 3600
+	5300 5500 5300 5650
 $Comp
 L Connector_Generic:Conn_02x13_Odd_Even J2
 U 1 1 60140A58
-P 5350 5450
-F 0 "J2" H 5400 6267 50  0000 C CNN
-F 1 "SCSI IDC-26" H 5400 6176 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 5350 5450 50  0001 C CNN
-F 3 "~" H 5350 5450 50  0001 C CNN
-	1    5350 5450
+P 5650 6600
+F 0 "J2" H 5700 7417 50  0000 C CNN
+F 1 "SCSI IDC-26" H 5700 7326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 5650 6600 50  0001 C CNN
+F 3 "~" H 5650 6600 50  0001 C CNN
+	1    5650 6600
 	1    0    0    -1  
 $EndComp
-Text Label 5750 1050 0    50   ~ 0
+Text Label 6050 3100 0    50   ~ 0
 DB0
-Text Label 5750 1150 0    50   ~ 0
+Text Label 6050 3200 0    50   ~ 0
 DB1
-Text Label 5750 1250 0    50   ~ 0
+Text Label 6050 3300 0    50   ~ 0
 DB2
-Text Label 5750 1350 0    50   ~ 0
+Text Label 6050 3400 0    50   ~ 0
 DB3
-Text Label 5750 1450 0    50   ~ 0
+Text Label 6050 3500 0    50   ~ 0
 DB4
-Text Label 5750 1550 0    50   ~ 0
+Text Label 6050 3600 0    50   ~ 0
 DB5
-Text Label 5750 1650 0    50   ~ 0
+Text Label 6050 3700 0    50   ~ 0
 DB6
-Text Label 5750 1750 0    50   ~ 0
+Text Label 6050 3800 0    50   ~ 0
 DB7
-Text Label 5750 1850 0    50   ~ 0
+Text Label 6050 3900 0    50   ~ 0
 PARITY
 Wire Wire Line
-	5650 1950 6100 1950
+	5950 4000 6400 4000
 Wire Wire Line
-	6100 1950 6100 2050
+	6400 4000 6400 4100
 Wire Wire Line
-	6100 3600 5000 3600
-Connection ~ 5000 3600
+	6400 5650 5300 5650
+Connection ~ 5300 5650
 Wire Wire Line
-	5000 3600 5000 3650
+	5300 5650 5300 5700
 Wire Wire Line
-	5650 2050 6100 2050
-Connection ~ 6100 2050
+	5950 4100 6400 4100
+Connection ~ 6400 4100
 Wire Wire Line
-	6100 2050 6100 2150
+	6400 4100 6400 4200
 Wire Wire Line
-	5650 2150 6100 2150
-Connection ~ 6100 2150
+	5950 4200 6400 4200
+Connection ~ 6400 4200
 Wire Wire Line
-	6100 2150 6100 2350
-Text Label 5750 2250 0    50   ~ 0
-TMPWR
+	6400 4200 6400 4400
 Wire Wire Line
-	5650 2350 6100 2350
-Connection ~ 6100 2350
+	5950 4400 6400 4400
+Connection ~ 6400 4400
 Wire Wire Line
-	6100 2350 6100 2450
+	6400 4400 6400 4500
 Wire Wire Line
-	5650 2450 6100 2450
-Connection ~ 6100 2450
+	5950 4500 6400 4500
+Connection ~ 6400 4500
 Wire Wire Line
-	6100 2450 6100 2650
-Text Label 5750 2550 0    50   ~ 0
+	6400 4500 6400 4700
+Text Label 6050 4600 0    50   ~ 0
 ~ATN
 Wire Wire Line
-	5650 2650 6100 2650
-Connection ~ 6100 2650
+	5950 4700 6400 4700
+Connection ~ 6400 4700
 Wire Wire Line
-	6100 2650 6100 3600
-Text Label 5750 2750 0    50   ~ 0
+	6400 4700 6400 5650
+Text Label 6050 4800 0    50   ~ 0
 ~BSY
-Text Label 5750 2850 0    50   ~ 0
+Text Label 6050 4900 0    50   ~ 0
 ~ACK
-Text Label 5750 2950 0    50   ~ 0
+Text Label 6050 5000 0    50   ~ 0
 ~RST
-Text Label 5750 3050 0    50   ~ 0
+Text Label 6050 5100 0    50   ~ 0
 ~MSG
-Text Label 5750 3150 0    50   ~ 0
+Text Label 6050 5200 0    50   ~ 0
 ~SEL
-Text Label 5750 3250 0    50   ~ 0
+Text Label 6050 5300 0    50   ~ 0
 ~CD
-Text Label 5750 3350 0    50   ~ 0
+Text Label 6050 5400 0    50   ~ 0
 ~REQ
-Text Label 5750 3450 0    50   ~ 0
+Text Label 6050 5500 0    50   ~ 0
 ~IO
 Wire Wire Line
-	5650 2550 5750 2550
+	5950 4600 6050 4600
 Wire Wire Line
-	5750 2250 5650 2250
+	6050 4800 5950 4800
 Wire Wire Line
-	5750 2750 5650 2750
+	6050 4900 5950 4900
 Wire Wire Line
-	5750 2850 5650 2850
+	6050 5000 5950 5000
 Wire Wire Line
-	5750 2950 5650 2950
+	6050 5100 5950 5100
 Wire Wire Line
-	5750 3050 5650 3050
+	6050 5200 5950 5200
 Wire Wire Line
-	5750 3150 5650 3150
+	6050 5300 5950 5300
 Wire Wire Line
-	5750 3250 5650 3250
+	6050 5400 5950 5400
 Wire Wire Line
-	5750 3350 5650 3350
+	6050 5500 5950 5500
 Wire Wire Line
-	5750 3450 5650 3450
+	6050 3900 5950 3900
 Wire Wire Line
-	5750 1850 5650 1850
+	6050 3800 5950 3800
 Wire Wire Line
-	5750 1750 5650 1750
+	5950 3700 6050 3700
 Wire Wire Line
-	5650 1650 5750 1650
+	5950 3600 6050 3600
 Wire Wire Line
-	5650 1550 5750 1550
+	5950 3500 6050 3500
 Wire Wire Line
-	5650 1450 5750 1450
+	5950 3400 6050 3400
 Wire Wire Line
-	5650 1350 5750 1350
+	5950 3300 6050 3300
 Wire Wire Line
-	5650 1250 5750 1250
+	5950 3200 6050 3200
 Wire Wire Line
-	5650 1150 5750 1150
-Wire Wire Line
-	5650 1050 5750 1050
-Text Notes 5000 6250 0    50   Italic 0
+	5950 3100 6050 3100
+Text Notes 5300 7400 0    50   Italic 0
 For use with // Header
-NoConn ~ 5650 6050
-Text Label 5050 4850 2    50   ~ 0
+NoConn ~ 5950 7200
+Text Label 5350 6000 2    50   ~ 0
 ~REQ
-Text Label 5050 4950 2    50   ~ 0
+Text Label 5350 6100 2    50   ~ 0
 ~MSG
-Text Label 5050 5050 2    50   ~ 0
+Text Label 5350 6200 2    50   ~ 0
 ~IO
-Text Label 5050 5150 2    50   ~ 0
+Text Label 5350 6300 2    50   ~ 0
 ~RST
-Text Label 5050 5250 2    50   ~ 0
+Text Label 5350 6400 2    50   ~ 0
 ~ACK
-Text Label 5050 5350 2    50   ~ 0
+Text Label 5350 6500 2    50   ~ 0
 ~BSY
 Wire Wire Line
-	5150 5450 4700 5450
+	5450 6600 5000 6600
 Wire Wire Line
-	4700 5450 4700 5650
+	5000 6600 5000 6800
 $Comp
 L power:GND #PWR0117
 U 1 1 602C1F35
-P 4700 6350
-F 0 "#PWR0117" H 4700 6100 50  0001 C CNN
-F 1 "GND" H 4705 6177 50  0000 C CNN
-F 2 "" H 4700 6350 50  0001 C CNN
-F 3 "" H 4700 6350 50  0001 C CNN
-	1    4700 6350
+P 5000 7500
+F 0 "#PWR0117" H 5000 7250 50  0001 C CNN
+F 1 "GND" H 5005 7327 50  0000 C CNN
+F 2 "" H 5000 7500 50  0001 C CNN
+F 3 "" H 5000 7500 50  0001 C CNN
+	1    5000 7500
 	1    0    0    -1  
 $EndComp
-Text Label 5050 5550 2    50   ~ 0
+Text Label 5350 6700 2    50   ~ 0
 DB0
 Wire Wire Line
-	5150 5650 4700 5650
-Connection ~ 4700 5650
+	5450 6800 5000 6800
+Connection ~ 5000 6800
 Wire Wire Line
-	4700 5650 4700 6350
-Text Label 5050 5750 2    50   ~ 0
+	5000 6800 5000 7500
+Text Label 5350 6900 2    50   ~ 0
 DB3
-Text Label 5050 5850 2    50   ~ 0
+Text Label 5350 7000 2    50   ~ 0
 DB5
-Text Label 5050 5950 2    50   ~ 0
+Text Label 5350 7100 2    50   ~ 0
 DB6
-Text Label 5050 6050 2    50   ~ 0
+Text Label 5350 7200 2    50   ~ 0
 DB7
 Wire Wire Line
-	5650 4850 6000 4850
-Wire Wire Line
-	6000 4850 6000 5050
+	6400 6000 6400 6200
 $Comp
 L power:GND #PWR0118
 U 1 1 602E1ACA
-P 6000 6350
-F 0 "#PWR0118" H 6000 6100 50  0001 C CNN
-F 1 "GND" H 6005 6177 50  0000 C CNN
-F 2 "" H 6000 6350 50  0001 C CNN
-F 3 "" H 6000 6350 50  0001 C CNN
-	1    6000 6350
+P 6400 7500
+F 0 "#PWR0118" H 6400 7250 50  0001 C CNN
+F 1 "GND" H 6405 7327 50  0000 C CNN
+F 2 "" H 6400 7500 50  0001 C CNN
+F 3 "" H 6400 7500 50  0001 C CNN
+	1    6400 7500
 	1    0    0    -1  
 $EndComp
-Text Label 5750 4950 0    50   ~ 0
+Text Label 6050 6100 0    50   ~ 0
 ~CD
-Wire Wire Line
-	5650 5050 6000 5050
-Connection ~ 6000 5050
-Text Label 5750 5150 0    50   ~ 0
+Connection ~ 6400 6200
+Text Label 6050 6300 0    50   ~ 0
 ~ATN
 Wire Wire Line
-	5650 5250 6000 5250
+	6400 6200 6400 6400
+Connection ~ 6400 6400
 Wire Wire Line
-	6000 5050 6000 5250
-Connection ~ 6000 5250
+	5350 6000 5450 6000
 Wire Wire Line
-	6000 5250 6000 5850
+	5350 6100 5450 6100
 Wire Wire Line
-	5050 4850 5150 4850
+	5350 6200 5450 6200
 Wire Wire Line
-	5050 4950 5150 4950
+	5350 6300 5450 6300
 Wire Wire Line
-	5050 5050 5150 5050
+	5350 6400 5450 6400
 Wire Wire Line
-	5050 5150 5150 5150
+	5350 6500 5450 6500
 Wire Wire Line
-	5050 5250 5150 5250
-Wire Wire Line
-	5050 5350 5150 5350
-Wire Wire Line
-	5050 5550 5150 5550
-Text Label 5750 5350 0    50   ~ 0
+	5350 6700 5450 6700
+Text Label 6050 6500 0    50   ~ 0
 ~SEL
-Text Label 5750 5450 0    50   ~ 0
+Text Label 6050 6600 0    50   ~ 0
 PARITY
-Text Label 5750 5550 0    50   ~ 0
+Text Label 6050 6700 0    50   ~ 0
 DB1
-Text Label 5750 5650 0    50   ~ 0
+Text Label 6050 6800 0    50   ~ 0
 DB2
-Text Label 5750 5750 0    50   ~ 0
+Text Label 6050 6900 0    50   ~ 0
 DB4
 Wire Wire Line
-	5650 5850 6000 5850
-Connection ~ 6000 5850
+	5950 7100 6050 7100
 Wire Wire Line
-	6000 5850 6000 6350
-Text Label 5750 5950 0    50   ~ 0
-TMPWR
+	5950 6900 6050 6900
 Wire Wire Line
-	5650 5950 5750 5950
+	5950 6800 6050 6800
 Wire Wire Line
-	5650 5750 5750 5750
+	5950 6700 6050 6700
 Wire Wire Line
-	5650 5650 5750 5650
+	6050 6500 5950 6500
 Wire Wire Line
-	5650 5550 5750 5550
+	5950 6600 6050 6600
 Wire Wire Line
-	5750 5350 5650 5350
+	5950 6300 6050 6300
 Wire Wire Line
-	5650 5450 5750 5450
+	5950 6100 6050 6100
 Wire Wire Line
-	5650 5150 5750 5150
+	5350 6900 5450 6900
 Wire Wire Line
-	5650 4950 5750 4950
+	5350 7000 5450 7000
 Wire Wire Line
-	5050 5750 5150 5750
+	5350 7100 5450 7100
 Wire Wire Line
-	5050 5850 5150 5850
-Wire Wire Line
-	5050 5950 5150 5950
-Wire Wire Line
-	5050 6050 5150 6050
-$Comp
-L Z53C8003VSG:Z53C8003VSG IC1
-U 1 1 5FF2A85E
-P 7800 1600
-F 0 "IC1" H 8500 700 50  0000 L CNN
-F 1 "Z53C8003VSG" H 8300 600 50  0000 L CNN
-F 2 "Package_LCC:PLCC-44_THT-Socket" H 9250 2100 50  0001 L CNN
-F 3 "https://www.mouser.fr/datasheet/2/450/ps0108-33056.pdf" H 9250 2000 50  0001 L CNN
-F 4 "SCSI Interface IC 3MB/SEC CMOS SCSI I" H 9250 1900 50  0001 L CNN "Description"
-F 5 "4.572" H 9250 1800 50  0001 L CNN "Height"
-F 6 "692-Z53C8003VSG" H 9250 1700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/ZiLOG/Z53C8003VSG/?qs=FsLZlD%252B%252Bd9cJEZW2nIhyXQ%3D%3D" H 9250 1600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Zilog" H 9250 1500 50  0001 L CNN "Manufacturer_Name"
-F 9 "Z53C8003VSG" H 9250 1400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    7800 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 1900 10000 1900
-Wire Wire Line
-	10000 1900 10000 2400
-$Comp
-L power:GND #PWR0119
-U 1 1 5FF6F0CD
-P 10000 2800
-F 0 "#PWR0119" H 10000 2550 50  0001 C CNN
-F 1 "GND" H 10005 2627 50  0000 C CNN
-F 2 "" H 10000 2800 50  0001 C CNN
-F 3 "" H 10000 2800 50  0001 C CNN
-	1    10000 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 2400 10000 2400
-Connection ~ 10000 2400
-Wire Wire Line
-	10000 2400 10000 2800
-Wire Wire Line
-	10000 600  8900 600 
-Wire Wire Line
-	8400 600  8400 900 
-Wire Wire Line
-	10000 600  10000 1000
-Wire Wire Line
-	8900 900  8900 600 
-Connection ~ 8900 600 
-Wire Wire Line
-	8900 600  8400 600 
-Text Label 9500 1800 0    50   ~ 0
-DB0
-Text Label 9500 1700 0    50   ~ 0
-DB1
-Text Label 9500 1600 0    50   ~ 0
-DB2
-Text Label 9100 800  1    50   ~ 0
-DB3
-Text Label 9000 800  1    50   ~ 0
-DB4
-Text Label 8800 800  1    50   ~ 0
-DB5
-Text Label 8700 800  1    50   ~ 0
-DB6
-Text Label 8600 800  1    50   ~ 0
-DB7
-Text Label 8500 800  1    50   ~ 0
-~RST
-Text Label 8300 800  1    50   ~ 0
-~BSY
-Text Label 8200 800  1    50   ~ 0
-~SEL
-Text Label 8100 800  1    50   ~ 0
-~ATN
-Text Label 9500 2000 0    50   ~ 0
-PARITY
-Text Label 9500 2100 0    50   ~ 0
-~REQ
-Text Label 9500 2200 0    50   ~ 0
-~ACK
-Text Label 9500 2300 0    50   ~ 0
-~IO
-Text Label 9500 2500 0    50   ~ 0
-~CD
-Text Label 9500 2600 0    50   ~ 0
-~MSG
-Wire Wire Line
-	8100 900  8100 800 
-Wire Wire Line
-	8200 900  8200 800 
-Wire Wire Line
-	8300 900  8300 800 
-Wire Wire Line
-	8500 900  8500 800 
-Wire Wire Line
-	8600 900  8600 800 
-Wire Wire Line
-	8700 900  8700 800 
-Wire Wire Line
-	8800 900  8800 800 
-$Comp
-L power:GND #PWR0121
-U 1 1 6004A450
-P 10000 1000
-F 0 "#PWR0121" H 10000 750 50  0001 C CNN
-F 1 "GND" H 10005 827 50  0000 C CNN
-F 2 "" H 10000 1000 50  0001 C CNN
-F 3 "" H 10000 1000 50  0001 C CNN
-	1    10000 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 900  9000 800 
-Wire Wire Line
-	9100 900  9100 800 
-Wire Wire Line
-	9400 1600 9500 1600
-Wire Wire Line
-	9400 1700 9500 1700
-Wire Wire Line
-	9400 1800 9500 1800
-Wire Wire Line
-	9500 2000 9400 2000
-Wire Wire Line
-	9500 2100 9400 2100
-Wire Wire Line
-	9500 2200 9400 2200
-Wire Wire Line
-	9500 2300 9400 2300
-Wire Wire Line
-	9500 2500 9400 2500
-Wire Wire Line
-	9500 2600 9400 2600
-$Comp
-L power:VCC #PWR0122
-U 1 1 6017E2E5
-P 8500 3500
-F 0 "#PWR0122" H 8500 3350 50  0001 C CNN
-F 1 "VCC" V 8500 3700 50  0000 C CNN
-F 2 "" H 8500 3500 50  0001 C CNN
-F 3 "" H 8500 3500 50  0001 C CNN
-	1    8500 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 6017E2EB
-P 8600 3750
-F 0 "C5" H 8850 3850 50  0000 C CNN
-F 1 "100nF" H 8850 3750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 8638 3600 50  0001 C CNN
-F 3 "~" H 8600 3750 50  0001 C CNN
-	1    8600 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 6017E2F5
-P 8600 4000
-F 0 "#PWR0123" H 8600 3750 50  0001 C CNN
-F 1 "GND" H 8605 3827 50  0000 C CNN
-F 2 "" H 8600 4000 50  0001 C CNN
-F 3 "" H 8600 4000 50  0001 C CNN
-	1    8600 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 4000 8600 3900
-Wire Wire Line
-	8600 3600 8600 3500
-Wire Wire Line
-	8500 3500 8600 3500
-Connection ~ 8600 3500
-Wire Wire Line
-	8600 3500 8600 3200
-Text Label 9100 3350 1    50   ~ 0
-D8
-Text Label 9000 3350 1    50   ~ 0
-D9
-Text Label 8900 3350 1    50   ~ 0
-D10
-Text Label 8800 3350 1    50   ~ 0
-D11
-Text Label 8700 3350 1    50   ~ 0
-D12
-Text Label 8500 3350 1    50   ~ 0
-D13
-Text Label 8400 3350 1    50   ~ 0
-D14
-Text Label 8300 3350 1    50   ~ 0
-D15
-Wire Wire Line
-	8300 3350 8300 3200
-Wire Wire Line
-	8400 3350 8400 3200
-Wire Wire Line
-	8500 3350 8500 3200
-Wire Wire Line
-	8700 3350 8700 3200
-Wire Wire Line
-	8800 3350 8800 3200
-Wire Wire Line
-	8900 3350 8900 3200
-Wire Wire Line
-	9000 3350 9000 3200
-Wire Wire Line
-	9100 3350 9100 3200
-Text Label 7700 2300 2    50   ~ 0
-A4
-Text Label 7700 2400 2    50   ~ 0
-A5
-Text Label 7700 2500 2    50   ~ 0
-A6
-Wire Wire Line
-	7700 2300 7800 2300
-Wire Wire Line
-	7700 2400 7800 2400
-Wire Wire Line
-	7700 2500 7800 2500
-NoConn ~ 7800 1700
-NoConn ~ 7800 1800
-$Comp
-L Device:R R1
-U 1 1 603D9140
-P 7350 1900
-F 0 "R1" V 7250 1800 50  0000 C CNN
-F 1 "10k" V 7250 2000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 1900 50  0001 C CNN
-F 3 "~" H 7350 1900 50  0001 C CNN
-	1    7350 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0124
-U 1 1 603DA02D
-P 7100 1500
-F 0 "#PWR0124" H 7100 1350 50  0001 C CNN
-F 1 "VCC" H 7115 1673 50  0000 C CNN
-F 2 "" H 7100 1500 50  0001 C CNN
-F 3 "" H 7100 1500 50  0001 C CNN
-	1    7100 1500
-	1    0    0    -1  
-$EndComp
+	5350 7200 5450 7200
 Text Label 8950 5750 0    50   ~ 0
 ~DACK
 Wire Wire Line
 	8950 5750 8850 5750
-Text Label 7700 2000 2    50   ~ 0
-~DACK
-Wire Wire Line
-	7700 2000 7800 2000
-Wire Wire Line
-	7500 1900 7800 1900
 Wire Wire Line
 	9850 5950 9750 5950
 Wire Wire Line
@@ -1574,23 +1308,6 @@ Text Label 7750 5650 2    50   ~ 0
 A17
 Wire Wire Line
 	7750 5650 7850 5650
-$Comp
-L Diode:1N4001 D1
-U 1 1 60580D52
-P 9350 3500
-F 0 "D1" H 9350 3283 50  0000 C CNN
-F 1 "1N4001" H 9350 3374 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9350 3325 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9350 3500 50  0001 C CNN
-	1    9350 3500
-	-1   0    0    1   
-$EndComp
-Text Label 9600 3500 0    50   ~ 0
-TMPWR
-Wire Wire Line
-	9500 3500 9600 3500
-Wire Wire Line
-	8600 3500 9200 3500
 Text Label 7750 5950 2    50   ~ 0
 A1
 Wire Wire Line
@@ -1618,22 +1335,10 @@ Connection ~ 7050 5850
 Wire Wire Line
 	7050 5850 7050 6050
 NoConn ~ 8850 5050
-Text Label 8100 3350 1    50   ~ 0
-~IOW
-Text Label 8200 3350 1    50   ~ 0
-~IOR
-Wire Wire Line
-	8200 3350 8200 3200
-Wire Wire Line
-	8100 3350 8100 3200
 Text Label 8950 5650 0    50   ~ 0
 ~IOR
 Wire Wire Line
 	8850 5650 8950 5650
-Text Label 7700 2600 2    50   ~ 0
-~CS
-Wire Wire Line
-	7700 2600 7800 2600
 Text Label 8950 5550 0    50   ~ 0
 ~CS
 Wire Wire Line
@@ -1732,80 +1437,6 @@ Wire Wire Line
 Connection ~ 7500 5250
 Wire Wire Line
 	7500 5250 7850 5250
-$Comp
-L Device:R R2
-U 1 1 60BC37C0
-P 7350 1600
-F 0 "R2" V 7250 1550 50  0000 R CNN
-F 1 "10k" V 7250 1750 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 1600 50  0001 C CNN
-F 3 "~" H 7350 1600 50  0001 C CNN
-	1    7350 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 60BC5CB8
-P 6850 1600
-F 0 "C7" V 6598 1600 50  0000 C CNN
-F 1 "C" V 6689 1600 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 6888 1450 50  0001 C CNN
-F 3 "~" H 6850 1600 50  0001 C CNN
-	1    6850 1600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7500 1600 7600 1600
-Wire Wire Line
-	7200 1600 7100 1600
-$Comp
-L Device:C C8
-U 1 1 60D54C0A
-P 6850 1900
-F 0 "C8" V 6598 1900 50  0000 C CNN
-F 1 "C" V 6689 1900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 6888 1750 50  0001 C CNN
-F 3 "~" H 6850 1900 50  0001 C CNN
-	1    6850 1900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7000 1900 7100 1900
-Wire Wire Line
-	7100 1500 7100 1600
-Connection ~ 7100 1600
-Wire Wire Line
-	7100 1600 7000 1600
-Wire Wire Line
-	7100 1600 7100 1900
-Connection ~ 7100 1900
-Wire Wire Line
-	7100 1900 7200 1900
-$Comp
-L power:GND #PWR0126
-U 1 1 60EC005E
-P 6600 2200
-F 0 "#PWR0126" H 6600 1950 50  0001 C CNN
-F 1 "GND" H 6605 2027 50  0000 C CNN
-F 2 "" H 6600 2200 50  0001 C CNN
-F 3 "" H 6600 2200 50  0001 C CNN
-	1    6600 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 1900 6700 1900
-Wire Wire Line
-	6600 1900 6600 1600
-Wire Wire Line
-	6600 1600 6700 1600
-Connection ~ 6600 1900
-Wire Wire Line
-	7800 2100 6600 2100
-Wire Wire Line
-	6600 1900 6600 2100
-Wire Wire Line
-	6600 2200 6600 2100
-Connection ~ 6600 2100
 Wire Wire Line
 	7500 5750 7500 6500
 Wire Wire Line
@@ -1815,42 +1446,6 @@ Wire Wire Line
 Wire Wire Line
 	11150 5550 10850 5550
 Connection ~ 7500 5750
-$Comp
-L Diode:1N4001 D2
-U 1 1 60FAEE09
-P 7350 1000
-F 0 "D2" V 7304 1080 50  0000 L CNN
-F 1 "1N4001" V 7395 1080 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7350 825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7350 1000 50  0001 C CNN
-	1    7350 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 1600 7600 1000
-Wire Wire Line
-	7600 1000 7500 1000
-Connection ~ 7600 1600
-Wire Wire Line
-	7600 1600 7800 1600
-$Comp
-L Device:C C9
-U 1 1 60FF906A
-P 6850 1000
-F 0 "C9" V 6598 1000 50  0000 C CNN
-F 1 "C" V 6689 1000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 6888 850 50  0001 C CNN
-F 3 "~" H 6850 1000 50  0001 C CNN
-	1    6850 1000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6700 1000 6600 1000
-Wire Wire Line
-	6600 1000 6600 1600
-Connection ~ 6600 1600
-Wire Wire Line
-	7200 1000 7000 1000
 $Comp
 L Device:R R6
 U 1 1 6108C821
@@ -1893,12 +1488,522 @@ Wire Wire Line
 	9350 5050 9350 4200
 Wire Wire Line
 	9500 5050 9500 5350
-Wire Bus Line
-	2450 1700 2450 4000
-Wire Bus Line
-	4350 1700 4350 4000
+Wire Wire Line
+	5700 1000 5500 1000
+Connection ~ 5100 1600
+Wire Wire Line
+	5100 1000 5100 1600
+Wire Wire Line
+	5200 1000 5100 1000
+$Comp
+L Device:C C9
+U 1 1 60FF906A
+P 5350 1000
+F 0 "C9" V 5098 1000 50  0000 C CNN
+F 1 "C" V 5189 1000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5388 850 50  0001 C CNN
+F 3 "~" H 5350 1000 50  0001 C CNN
+	1    5350 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 1600 6300 1600
+Connection ~ 6100 1600
+Wire Wire Line
+	6100 1000 6000 1000
+Wire Wire Line
+	6100 1600 6100 1000
+$Comp
+L Diode:1N4001 D2
+U 1 1 60FAEE09
+P 5850 1000
+F 0 "D2" V 5804 1080 50  0000 L CNN
+F 1 "1N4001" V 5895 1080 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5850 825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5850 1000 50  0001 C CNN
+	1    5850 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 2100
+Wire Wire Line
+	5100 2200 5100 2100
+Wire Wire Line
+	5100 1900 5100 2100
+Wire Wire Line
+	6300 2100 5100 2100
+Connection ~ 5100 1900
+Wire Wire Line
+	5100 1600 5200 1600
+Wire Wire Line
+	5100 1900 5100 1600
+Wire Wire Line
+	5100 1900 5200 1900
+$Comp
+L power:GND #PWR0126
+U 1 1 60EC005E
+P 5100 2200
+F 0 "#PWR0126" H 5100 1950 50  0001 C CNN
+F 1 "GND" H 5105 2027 50  0000 C CNN
+F 2 "" H 5100 2200 50  0001 C CNN
+F 3 "" H 5100 2200 50  0001 C CNN
+	1    5100 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1900 5700 1900
+Connection ~ 5600 1900
+Wire Wire Line
+	5600 1600 5600 1900
+Wire Wire Line
+	5600 1600 5500 1600
+Connection ~ 5600 1600
+Wire Wire Line
+	5600 1500 5600 1600
+Wire Wire Line
+	5500 1900 5600 1900
+$Comp
+L Device:C C8
+U 1 1 60D54C0A
+P 5350 1900
+F 0 "C8" V 5098 1900 50  0000 C CNN
+F 1 "C" V 5189 1900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5388 1750 50  0001 C CNN
+F 3 "~" H 5350 1900 50  0001 C CNN
+	1    5350 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 1600 5600 1600
+Wire Wire Line
+	6000 1600 6100 1600
+$Comp
+L Device:C C7
+U 1 1 60BC5CB8
+P 5350 1600
+F 0 "C7" V 5098 1600 50  0000 C CNN
+F 1 "C" V 5189 1600 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5388 1450 50  0001 C CNN
+F 3 "~" H 5350 1600 50  0001 C CNN
+	1    5350 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60BC37C0
+P 5850 1600
+F 0 "R2" V 5750 1550 50  0000 R CNN
+F 1 "10k" V 5750 1750 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 1600 50  0001 C CNN
+F 3 "~" H 5850 1600 50  0001 C CNN
+	1    5850 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 2600 6300 2600
+Text Label 6200 2600 2    50   ~ 0
+~CS
+Wire Wire Line
+	6600 3350 6600 3200
+Wire Wire Line
+	6700 3350 6700 3200
+Text Label 6700 3350 1    50   ~ 0
+~IOR
+Text Label 6600 3350 1    50   ~ 0
+~IOW
+Wire Wire Line
+	6000 1900 6300 1900
+Wire Wire Line
+	6200 2000 6300 2000
+Text Label 6200 2000 2    50   ~ 0
+~DACK
+$Comp
+L power:VCC #PWR0124
+U 1 1 603DA02D
+P 5600 1500
+F 0 "#PWR0124" H 5600 1350 50  0001 C CNN
+F 1 "VCC" H 5615 1673 50  0000 C CNN
+F 2 "" H 5600 1500 50  0001 C CNN
+F 3 "" H 5600 1500 50  0001 C CNN
+	1    5600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 603D9140
+P 5850 1900
+F 0 "R1" V 5750 1800 50  0000 C CNN
+F 1 "10k" V 5750 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5780 1900 50  0001 C CNN
+F 3 "~" H 5850 1900 50  0001 C CNN
+	1    5850 1900
+	0    1    1    0   
+$EndComp
+NoConn ~ 6300 1800
+NoConn ~ 6300 1700
+Wire Wire Line
+	6200 2500 6300 2500
+Wire Wire Line
+	6200 2400 6300 2400
+Wire Wire Line
+	6200 2300 6300 2300
+Text Label 6200 2500 2    50   ~ 0
+A6
+Text Label 6200 2400 2    50   ~ 0
+A5
+Text Label 6200 2300 2    50   ~ 0
+A4
+Wire Wire Line
+	7600 3350 7600 3200
+Wire Wire Line
+	7500 3350 7500 3200
+Wire Wire Line
+	7400 3350 7400 3200
+Wire Wire Line
+	7300 3350 7300 3200
+Wire Wire Line
+	7200 3350 7200 3200
+Wire Wire Line
+	7000 3350 7000 3200
+Wire Wire Line
+	6900 3350 6900 3200
+Wire Wire Line
+	6800 3350 6800 3200
+Text Label 6800 3350 1    50   ~ 0
+D15
+Text Label 6900 3350 1    50   ~ 0
+D14
+Text Label 7000 3350 1    50   ~ 0
+D13
+Text Label 7200 3350 1    50   ~ 0
+D12
+Text Label 7300 3350 1    50   ~ 0
+D11
+Text Label 7400 3350 1    50   ~ 0
+D10
+Text Label 7500 3350 1    50   ~ 0
+D9
+Text Label 7600 3350 1    50   ~ 0
+D8
+Wire Wire Line
+	7100 3500 7100 3200
+Connection ~ 7100 3500
+Wire Wire Line
+	7000 3500 7100 3500
+Wire Wire Line
+	7100 3600 7100 3500
+Wire Wire Line
+	7100 4000 7100 3900
+$Comp
+L power:GND #PWR0123
+U 1 1 6017E2F5
+P 7100 4000
+F 0 "#PWR0123" H 7100 3750 50  0001 C CNN
+F 1 "GND" H 7105 3827 50  0000 C CNN
+F 2 "" H 7100 4000 50  0001 C CNN
+F 3 "" H 7100 4000 50  0001 C CNN
+	1    7100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6017E2EB
+P 7100 3750
+F 0 "C5" H 7350 3850 50  0000 C CNN
+F 1 "100nF" H 7350 3750 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7138 3600 50  0001 C CNN
+F 3 "~" H 7100 3750 50  0001 C CNN
+	1    7100 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0122
+U 1 1 6017E2E5
+P 7000 3500
+F 0 "#PWR0122" H 7000 3350 50  0001 C CNN
+F 1 "VCC" V 7000 3700 50  0000 C CNN
+F 2 "" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 2600 7900 2600
+Wire Wire Line
+	8000 2500 7900 2500
+Wire Wire Line
+	8000 2300 7900 2300
+Wire Wire Line
+	8000 2200 7900 2200
+Wire Wire Line
+	8000 2100 7900 2100
+Wire Wire Line
+	8000 2000 7900 2000
+Wire Wire Line
+	7900 1800 8000 1800
+Wire Wire Line
+	7900 1700 8000 1700
+Wire Wire Line
+	7900 1600 8000 1600
+Wire Wire Line
+	7600 900  7600 800 
+Wire Wire Line
+	7500 900  7500 800 
+$Comp
+L power:GND #PWR0121
+U 1 1 6004A450
+P 8500 1000
+F 0 "#PWR0121" H 8500 750 50  0001 C CNN
+F 1 "GND" H 8505 827 50  0000 C CNN
+F 2 "" H 8500 1000 50  0001 C CNN
+F 3 "" H 8500 1000 50  0001 C CNN
+	1    8500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 900  7300 800 
+Wire Wire Line
+	7200 900  7200 800 
+Wire Wire Line
+	7100 900  7100 800 
+Wire Wire Line
+	7000 900  7000 800 
+Wire Wire Line
+	6800 900  6800 800 
+Wire Wire Line
+	6700 900  6700 800 
+Wire Wire Line
+	6600 900  6600 800 
+Text Label 8000 2600 0    50   ~ 0
+~MSG
+Text Label 8000 2500 0    50   ~ 0
+~CD
+Text Label 8000 2300 0    50   ~ 0
+~IO
+Text Label 8000 2200 0    50   ~ 0
+~ACK
+Text Label 8000 2100 0    50   ~ 0
+~REQ
+Text Label 8000 2000 0    50   ~ 0
+PARITY
+Text Label 6600 800  1    50   ~ 0
+~ATN
+Text Label 6700 800  1    50   ~ 0
+~SEL
+Text Label 6800 800  1    50   ~ 0
+~BSY
+Text Label 7000 800  1    50   ~ 0
+~RST
+Text Label 7100 800  1    50   ~ 0
+DB7
+Text Label 7200 800  1    50   ~ 0
+DB6
+Text Label 7300 800  1    50   ~ 0
+DB5
+Text Label 7500 800  1    50   ~ 0
+DB4
+Text Label 7600 800  1    50   ~ 0
+DB3
+Text Label 8000 1600 0    50   ~ 0
+DB2
+Text Label 8000 1700 0    50   ~ 0
+DB1
+Text Label 8000 1800 0    50   ~ 0
+DB0
+Wire Wire Line
+	7400 600  6900 600 
+Connection ~ 7400 600 
+Wire Wire Line
+	7400 900  7400 600 
+Wire Wire Line
+	8500 600  8500 1000
+Wire Wire Line
+	6900 600  6900 900 
+Wire Wire Line
+	8500 600  7400 600 
+Wire Wire Line
+	8500 2400 8500 2800
+Connection ~ 8500 2400
+Wire Wire Line
+	7900 2400 8500 2400
+$Comp
+L power:GND #PWR0119
+U 1 1 5FF6F0CD
+P 8500 2800
+F 0 "#PWR0119" H 8500 2550 50  0001 C CNN
+F 1 "GND" H 8505 2627 50  0000 C CNN
+F 2 "" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1900 8500 2400
+Wire Wire Line
+	7900 1900 8500 1900
+$Comp
+L Z53C8003VSG:Z53C8003VSG IC1
+U 1 1 5FF2A85E
+P 6300 1600
+F 0 "IC1" H 7000 700 50  0000 L CNN
+F 1 "Z53C8003VSG" H 6800 600 50  0000 L CNN
+F 2 "Package_LCC:PLCC-44_THT-Socket" H 7750 2100 50  0001 L CNN
+F 3 "https://www.mouser.fr/datasheet/2/450/ps0108-33056.pdf" H 7750 2000 50  0001 L CNN
+F 4 "SCSI Interface IC 3MB/SEC CMOS SCSI I" H 7750 1900 50  0001 L CNN "Description"
+F 5 "4.572" H 7750 1800 50  0001 L CNN "Height"
+F 6 "692-Z53C8003VSG" H 7750 1700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ZiLOG/Z53C8003VSG/?qs=FsLZlD%252B%252Bd9cJEZW2nIhyXQ%3D%3D" H 7750 1600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Zilog" H 7750 1500 50  0001 L CNN "Manufacturer_Name"
+F 9 "Z53C8003VSG" H 7750 1400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6300 1600
+	1    0    0    -1  
+$EndComp
+Text Label 10100 1050 2    50   ~ 0
+DB0
+Text Label 10100 1150 2    50   ~ 0
+DB1
+Text Label 10100 1250 2    50   ~ 0
+DB2
+Text Label 10100 1350 2    50   ~ 0
+DB3
+Text Label 10100 1450 2    50   ~ 0
+DB4
+Text Label 10100 1550 2    50   ~ 0
+DB5
+Text Label 10100 1650 2    50   ~ 0
+DB6
+Text Label 10100 1750 2    50   ~ 0
+DB7
+$Comp
+L Device:R_Network09_US RN1
+U 1 1 60021E1C
+P 10400 1450
+F 0 "RN1" V 9783 1450 50  0000 C CNN
+F 1 "4610X-101-111LF" V 9874 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 10975 1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10400 1450 50  0001 C CNN
+	1    10400 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network09_US RN2
+U 1 1 60025DB9
+P 10400 2750
+F 0 "RN2" V 9783 2750 50  0000 C CNN
+F 1 "4610X-101-111LF" V 9874 2750 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 10975 2750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10400 2750 50  0001 C CNN
+	1    10400 2750
+	0    1    1    0   
+$EndComp
+Text Label 10100 1850 2    50   ~ 0
+PARITY
+Wire Wire Line
+	10100 1050 10200 1050
+Wire Wire Line
+	10100 1150 10200 1150
+Wire Wire Line
+	10100 1250 10200 1250
+Wire Wire Line
+	10100 1350 10200 1350
+Wire Wire Line
+	10100 1450 10200 1450
+Wire Wire Line
+	10100 1550 10200 1550
+Wire Wire Line
+	10100 1650 10200 1650
+Wire Wire Line
+	10100 1750 10200 1750
+Wire Wire Line
+	10100 1850 10200 1850
+Text Label 10100 2350 2    50   ~ 0
+~ATN
+Text Label 10100 2450 2    50   ~ 0
+~SEL
+Text Label 10100 2550 2    50   ~ 0
+~BSY
+Text Label 10100 2650 2    50   ~ 0
+~RST
+Text Label 10100 2750 2    50   ~ 0
+~REQ
+Text Label 10100 2850 2    50   ~ 0
+~ACK
+Text Label 10100 2950 2    50   ~ 0
+~IO
+Text Label 10100 3050 2    50   ~ 0
+~CD
+Text Label 10100 3150 2    50   ~ 0
+~MSG
+Wire Wire Line
+	6400 6400 6400 7000
+Wire Wire Line
+	5950 7000 6400 7000
+Connection ~ 6400 7000
+Wire Wire Line
+	6400 7000 6400 7500
+Wire Wire Line
+	5950 6400 6400 6400
+Wire Wire Line
+	5950 6200 6400 6200
+Wire Wire Line
+	5950 6000 6400 6000
+Wire Wire Line
+	10100 2350 10200 2350
+Wire Wire Line
+	10100 2450 10200 2450
+Wire Wire Line
+	10100 2550 10200 2550
+Wire Wire Line
+	10100 2650 10200 2650
+Wire Wire Line
+	10100 2750 10200 2750
+Wire Wire Line
+	10100 2850 10200 2850
+Wire Wire Line
+	10100 2950 10200 2950
+Wire Wire Line
+	10100 3050 10200 3050
+Wire Wire Line
+	10100 3150 10200 3150
+$Comp
+L power:+2V8 #PWR0120
+U 1 1 604B61C7
+P 10850 950
+F 0 "#PWR0120" H 10850 800 50  0001 C CNN
+F 1 "+2V8" H 10865 1123 50  0000 C CNN
+F 2 "" H 10850 950 50  0001 C CNN
+F 3 "" H 10850 950 50  0001 C CNN
+	1    10850 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1050 10850 1050
+Wire Wire Line
+	10850 2350 10600 2350
+Wire Wire Line
+	10850 950  10850 1050
+Connection ~ 10850 1050
+Wire Wire Line
+	10850 1050 10850 2350
+$Sheet
+S 9500 3500 500  500 
+U 5FFE464C
+F0 "MacSnap TMPWR" 50
+F1 "MacSnap TMPWR.sch" 50
+$EndSheet
+Text Notes 9550 3700 0    50   ~ 0
+Termination\nPower
+Text GLabel 6050 7100 2    50   Input ~ 0
+TMPWR
+Text GLabel 6050 4300 2    50   Input ~ 0
+TMPWR
+Wire Wire Line
+	6050 4300 5950 4300
 Wire Bus Line
 	4350 4000 4350 5900
 Wire Bus Line
 	2450 4000 2450 5900
+Wire Bus Line
+	4350 1700 4350 4000
+Wire Bus Line
+	2450 1700 2450 4000
 $EndSCHEMATC

@@ -1990,8 +1990,8 @@ U 5FFE464C
 F0 "MacSnap TMPWR" 50
 F1 "MacSnap TMPWR.sch" 50
 $EndSheet
-Text Notes 9550 3700 0    50   ~ 0
-Termination\nPower
+Text Notes 9550 3850 0    50   ~ 0
+Termination\nPower\nGeneration
 Text GLabel 6050 7100 2    50   Input ~ 0
 TMPWR
 Text GLabel 6050 4300 2    50   Input ~ 0

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC34268DR2G
+D LDO Regulator Pos 2.85V 0.8A 8-Pin SOIC N T/R
+K
+F http://www.onsemi.com/pub/Collateral/MC34268-D.PDF
+$ENDCMP
+#
+#End Doc Library

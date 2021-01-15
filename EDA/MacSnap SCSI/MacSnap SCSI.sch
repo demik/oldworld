@@ -1917,21 +1917,21 @@ Wire Wire Line
 	10100 1850 10200 1850
 Text Label 10100 2350 2    50   ~ 0
 ~ATN
-Text Label 10100 2450 2    50   ~ 0
+Text Label 10100 2850 2    50   ~ 0
 ~SEL
-Text Label 10100 2550 2    50   ~ 0
+Text Label 10100 2450 2    50   ~ 0
 ~BSY
 Text Label 10100 2650 2    50   ~ 0
 ~RST
-Text Label 10100 2750 2    50   ~ 0
-~REQ
-Text Label 10100 2850 2    50   ~ 0
-~ACK
-Text Label 10100 2950 2    50   ~ 0
-~IO
 Text Label 10100 3050 2    50   ~ 0
-~CD
+~REQ
+Text Label 10100 2550 2    50   ~ 0
+~ACK
 Text Label 10100 3150 2    50   ~ 0
+~IO
+Text Label 10100 2950 2    50   ~ 0
+~CD
+Text Label 10100 2750 2    50   ~ 0
 ~MSG
 Wire Wire Line
 	6400 6400 6400 7000

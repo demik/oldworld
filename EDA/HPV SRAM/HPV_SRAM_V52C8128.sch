@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Macintosh VRAM SIMM (256Kb V52C8128 version)"
 Date "2020-09-05"
 Rev "1.0"
-Comp ""
-Comment1 ""
-Comment2 ""
+Comp "Lostwave"
+Comment1 "https://68kmla.org"
+Comment2 "https://github.com/demik/oldworld/tree/master/EDA/HPV%20SRAM"
 Comment3 ""
 Comment4 ""
 $EndDescr

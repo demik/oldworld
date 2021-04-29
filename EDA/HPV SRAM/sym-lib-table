@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name KM428C256)(type Legacy)(uri ${KIPRJMOD}/KM428C256.lib)(options "")(descr ""))
-  (lib (name HPV_SRAM-rescue)(type Legacy)(uri ${KIPRJMOD}/HPV_SRAM-rescue.lib)(options "")(descr ""))
-  (lib (name Connector_Apple)(type Legacy)(uri ${KIPRJMOD}/../lib/Connector_Apple.lib)(options "")(descr ""))
-  (lib (name V52C8)(type Legacy)(uri ${KIPRJMOD}/V52C8.lib)(options "")(descr ""))
-)

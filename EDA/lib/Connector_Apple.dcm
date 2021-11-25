@@ -6,6 +6,12 @@ K 68030 68030FE Motorolla NXP Ceramic Surface Mount
 F https://www.nxp.com/docs/en/reference-manual/MC68030UM.pdf
 $ENDCMP
 #
+$CMP DB19_Female
+D 19-pin female D-SUB connector
+K female D-SUB connector
+F  ~
+$ENDCMP
+#
 $CMP Mac_Plus_ROM_HI
 D Mac Plus ROM Motherboard Socket
 K Mac Plus ROM Motherboard Socket

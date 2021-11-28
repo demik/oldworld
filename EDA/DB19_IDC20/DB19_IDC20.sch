@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "TashTwenty Mini Adapter"
-Date "2021-11-26"
+Title "TashTwenty Tiny Adapter"
+Date "2021-11-28"
 Rev "1.0"
 Comp "Lostwave"
 Comment1 "https://68kmla.org"

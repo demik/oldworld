@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name G125-MS12005L0P)(type Legacy)(uri ${KIPRJMOD}/G125-MS12005L0P.mod)(options "")(descr ""))
+  (lib (name "PB5xx Floppy")(type KiCad)(uri ${KIPRJMOD}/)(options "")(descr ""))
+  (lib (name Connector_Apple)(type KiCad)(uri ${KIPRJMOD}/../lib/Connector_Apple.pretty)(options "")(descr ""))
+)

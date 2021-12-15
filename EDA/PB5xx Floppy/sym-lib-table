@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name G125-MS12005L0P)(type Legacy)(uri ${KIPRJMOD}/G125-MS12005L0P.lib)(options "")(descr ""))
+  (lib (name G125-MV12005L0P)(type Legacy)(uri ${KIPRJMOD}/G125-MV12005L0P.lib)(options "")(descr ""))
 )

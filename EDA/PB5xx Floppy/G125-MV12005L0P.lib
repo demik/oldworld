@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model G125-MV12005L0P
+#/1387501/231798/2.49/20/2/Connector
+DEF G125-MV12005L0P J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "G125-MV12005L0P" 750 200 50 H V L CNN
+F2 "G125-MV12005L0P" 750 100 50 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/G125-MVXXX05LXP.pdf" 750 0 50 H I L CNN
+F4 "Gecko DIL Male Vertical 3mm Throughboard Connector, no latches, gold, pick &amp; place (cut tape packing), 20 contacts" 750 -100 50 H I L CNN "Description"
+F5 "6.9" 750 -200 50 H I L CNN "Height"
+F6 "855-G125-MV12005L0P" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Harwin/G125-MV12005L0P?qs=cdolyCy5tGqDomE2BJ0hfw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Harwin" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "G125-MV12005L0P" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 900 0 200 L 50 50 0 0 P
+X 12 12 900 -100 200 L 50 50 0 0 P
+X 13 13 900 -200 200 L 50 50 0 0 P
+X 14 14 900 -300 200 L 50 50 0 0 P
+X 15 15 900 -400 200 L 50 50 0 0 P
+X 16 16 900 -500 200 L 50 50 0 0 P
+X 17 17 900 -600 200 L 50 50 0 0 P
+X 18 18 900 -700 200 L 50 50 0 0 P
+X 19 19 900 -800 200 L 50 50 0 0 P
+X 20 20 900 -900 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

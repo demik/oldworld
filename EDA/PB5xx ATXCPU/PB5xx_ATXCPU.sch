@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "PB5xx ATXCPU"
-Date "2021-11-29"
-Rev "1.0"
+Date "2022-01-31"
+Rev "1.1"
 Comp "Lostwave"
 Comment1 "https://68kmla.org"
 Comment2 ""

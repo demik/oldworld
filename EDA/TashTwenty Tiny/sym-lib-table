@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name PIC16F1825-IP)(type Legacy)(uri ${KIPRJMOD}/PIC16F1825-IP.lib)(options "")(descr ""))
-)

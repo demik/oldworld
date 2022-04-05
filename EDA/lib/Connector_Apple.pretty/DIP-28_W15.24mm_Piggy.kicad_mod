@@ -1,4 +1,4 @@
-(module DIP-28_W15.24mm_Piggy (layer F.Cu) (tedit 5FED9D0E)
+(module DIP-28_W15.24mm_Piggy (layer F.Cu) (tedit 624CC805)
   (descr "28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket")
   (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket")
   (fp_text reference REF** (at 7.62 -2.33) (layer F.SilkS)

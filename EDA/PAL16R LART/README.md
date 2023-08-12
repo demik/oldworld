@@ -6,7 +6,7 @@ The PAL16R LART (for Logic Analyzing and Reversing Tool) is a small tool used to
 
 Its a small PCB with a ZIF socket and additional pins for a logic analyzer. It's supposed to be installed in a socket on the original board
 
-![PAL16R LART](EDA/PAL16R LART/PAL16R LART.jpeg)
+![PAL16R LART](PAL16R%20LART.jpeg)
 
 ## How to build
 

@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The PAL16R LART (for Logic Analyzing and Reversing Tool) is a small tool used to reverse PAL16 in live environement
+The PAL16R LART (for **L**ogic **A**nalyzing and **R**eversing **T**ool) is a small tool that can be used to help reversing PAL16s in live environement.
 
-Its a small PCB with a ZIF socket and additional pins for a logic analyzer. It's supposed to be installed in a socket on the original board
+The small PCB can be fitted with a ZIF socket and additional pins for a logic analyzer. It's supposed to be installed in a socket on the original board.
 
 ![PAL16R LART](PAL16R%20LART.jpeg)
 

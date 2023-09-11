@@ -16,11 +16,11 @@ Everything else, can, or can be bough as new using the BOM below
 | D1, D2                | Diode      | 2        | 1N4148 SOD27 DO-35                     | TRU TC-1N4148         |
 | J3                    | Mini DIN-4 | 1        | ADB connector                          | TE 5749263-1          |
 | K1                    | DIP40      | 1        | DIP40 leaf type socket                 | TRU 40-LC-TT          |
-| LED1, LED2, LED3      | 3mm LED    | 1        | standard 3mm THT LED                   | - [^2]                |
+| LED1, LED2, LED3      | 3mm LED    | 3        | standard 3mm THT LED                   | - [^2]                |
 | R2, R3, R4            | 180Ω       | 3        | standard 0.25W carbon film resistor    | TRU TC-CFR0W4J0181    |
 | SW1 to SW69           | PIC16F1704 | 69       | 5 pins Cherry MX switches              | MX1A-G1NW [^4]        |
 | Y1                    | 4MHz       | 1        | Resonator                              | Murata CSTLS4M00G53   |
-| Cable			| S-Video    | 1        | 2 meters S-Video cable		 | Lindy 35630           |
+| Cable                 | S-Video    | 1        | 2 meters S-Video cable		 | Lindy 35630           |
 
 Optional (For Accent key backlighting [^3])
 

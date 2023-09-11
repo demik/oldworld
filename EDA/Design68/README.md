@@ -5,7 +5,7 @@
 ## BOM
 ### BOM (unless reclaimed)
 The only thing that need to be reclaimed is the controller. The controller is the DIP40 chip labelled KS88C0504 or 344-0001.
-Everything else, can, or can be bough as new using the BOM below
+Everything else, can be harvested or be bough as new using the BOM below
 
 | Reference(s)          | Value      | Quantity | Notes                                  | Part number           |
 |-----------------------|------------|----------|----------------------------------------|-----------------------|

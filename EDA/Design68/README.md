@@ -1,6 +1,23 @@
 # Design68
-
 65% DIY mechanical keyboard using AppleDesign controllers
+
+### Elevator pitch
+This project allow you to create an almost brand new 65% ADB (Apple Desktop Bus), with only the controller from a dead AppleDesign keyboard being harvested
+It combines a CIY Tester68, use a custom PCB that can host the old AppleDesign controller
+
+So far the project works and has been tester, but will probably work only with the ALPS ISO 341-0001 Controller. Others controllers will probably need a different PCB
+
+![Render](Design68.png)
+
+### Base Materials
+What's needed​
+- Tester68 keyboard from CIY
+- A dead AppleDesign keyboard
+- 65% Apple styled keycap set (keychron has some nice ones)
+- Design68 PCB
+- 2U keycap stabilizer
+- some tools (a Dremel would help greatly)
+… and the BOM below
 
 ## BOM
 ### BOM (unless reclaimed)
@@ -19,8 +36,8 @@ Everything else, can be harvested or be bough as new using the BOM below
 | LED1, LED2, LED3      | 3mm LED    | 3        | standard 3mm THT LED                   | - [^2]                |
 | R2, R3, R4            | 180Ω       | 3        | standard 0.25W carbon film resistor    | TRU TC-CFR0W4J0181    |
 | SW1 to SW69           | PIC16F1704 | 69       | 5 pins Cherry MX switches              | MX1A-G1NW [^4]        |
-| Y1                    | 4MHz       | 1        | Resonator                              | Murata CSTLS4M00G53   |
-| Cable                 | S-Video    | 1        | 2 meters S-Video cable		 | Lindy 35630           |
+| Y1                    | 4MHz       | 1        | resonator                              | Murata CSTLS4M00G53   |
+| Cable                 | S-Video    | 1        | 2 meters S-Video cable		             | Lindy 35630           |
 
 Optional (For Accent key backlighting [^3])
 
@@ -30,7 +47,10 @@ Optional (For Accent key backlighting [^3])
 | R5                    | 470Ω       | 1        | standard 0.25W carbon film resistor    | TRU TC-CFR0W4J0471    |
 
 
-[^1]: harvest from Tester68 PCB. Only needed without C2 (Only one of them is needed)
+[^1]: harvest from Tester68 PCB. Only needed without C2 (only one of them is needed)
 [^2]: use prefered color. For shine thru keycaps, use from 30mcd to 100mcd. For underglow on solid keycaps, choose between 100mcd to 500mcd LEDs
 [^3]: the accent key is the top left one. LED will always be on
 [^4]: do I have to tell you to use your preferred keyswitches here ? Prefer thoses with 5 pins and THT LED mounting
+
+### Community
+Thread @ [68kmla](https://68kmla.org/bb/index.php?threads/design68-a-65-replacement-keyboard-using-appledesign-controllers.45326/)

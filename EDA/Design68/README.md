@@ -52,5 +52,12 @@ Optional (For Accent key backlighting [^3])
 [^3]: the accent key is the top left one. LED will always be on
 [^4]: do I have to tell you to use your preferred keyswitches here ? Prefer thoses with 5 pins and THT LED mounting
 
+### Keycaps
+Here is a few Mac keycaps that are known to work nicely with this project:
+- Keychron ISO Q1 & K2 OEM PBT keycap Retro set (DE-ISO UK-ISO Noridc-ISO FR-ISO IT-ISO ESP-ISO)
+- Keychron ISO Q1 & K2 OEM PBT keycap Blue set (DE-ISO UK-ISO Noridc-ISO FR-ISO IT-ISO ESP-ISO)
+- Keychron ISO Q1 & K2 OEM PBT keycap Carbon set (DE-ISO UK-ISO Noridc-ISO FR-ISO IT-ISO ESP-ISO)
+- Keychron France ISO ABS Full Set Keycap (FR-ISO)
+
 ### Community
 Thread @ [68kmla](https://68kmla.org/bb/index.php?threads/design68-a-65-replacement-keyboard-using-appledesign-controllers.45326/)

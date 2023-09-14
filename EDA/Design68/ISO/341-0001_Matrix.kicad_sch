@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Design68 341-0001 ISO")
+    (date "2023-09-14")
+    (rev "1.0")
+    (company "lostwave")
+    (comment 1 "https://github.com/demik/oldworld/blob/master/EDA/Design68/README.md")
+  )
+
   (lib_symbols
     (symbol "Switch:SW_Push" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 1.27 2.54 0)

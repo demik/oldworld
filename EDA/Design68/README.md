@@ -5,7 +5,8 @@
 This project allow you to create an almost brand new 65% ADB (Apple Desktop Bus), with only the controller from a dead AppleDesign keyboard being harvested
 It combines a CIY Tester68, use a custom PCB that can host the old AppleDesign controller
 
-So far the project works and has been tester, but will probably work only with the ALPS ISO 341-0001 Controller. Others controllers will probably need a different PCB
+So far the project works and has been tester, but will probably work only with the ALPS 341-0001 Controller. Others controllers will probably need a different PCB
+The controller is dual mode, and will boot into ISO or ANSI mode when installed in the respective PCB
 
 ![Render](Design68.png)
 
@@ -21,7 +22,7 @@ What's needed​
 
 ## BOM
 ### BOM (unless reclaimed)
-The only thing that need to be reclaimed is the controller. The controller is the DIP40 chip labelled KS88C0504 or 344-0001.
+The only thing that need to be reclaimed is the controller. The controller is the DIP40 chip labelled KS88C0504 or 341-0001.
 Everything else, can be harvested or be bough as new using the BOM below
 
 | Reference(s)          | Value      | Quantity | Notes                                  | Part number           |
@@ -53,11 +54,14 @@ Optional (For Accent key backlighting [^3])
 [^4]: do I have to tell you to use your preferred keyswitches here ? Prefer thoses with 5 pins and THT LED mounting
 
 ### Keycaps
-Here is a few Mac keycaps that are known to work nicely with this project:
+ISO Mac Keycap sets are quite rare.
+Here is a few of them that are known to work nicely with this project:
 - Keychron ISO Q1 & K2 OEM PBT keycap Retro set (DE-ISO UK-ISO Noridc-ISO FR-ISO IT-ISO ESP-ISO)
 - Keychron ISO Q1 & K2 OEM PBT keycap Blue set (DE-ISO UK-ISO Noridc-ISO FR-ISO IT-ISO ESP-ISO)
 - Keychron ISO Q1 & K2 OEM PBT keycap Carbon set (DE-ISO UK-ISO Noridc-ISO FR-ISO IT-ISO ESP-ISO)
 - Keychron France ISO ABS Full Set Keycap (FR-ISO)
+
+for ANSI, there is plenty of choice around (look at 65%/75% sets from Keychron or NuPhy)
 
 ### Community
 Thread @ [68kmla](https://68kmla.org/bb/index.php?threads/design68-a-65-replacement-keyboard-using-appledesign-controllers.45326/)

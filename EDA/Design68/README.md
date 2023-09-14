@@ -61,3 +61,4 @@ Here is a few Mac keycaps that are known to work nicely with this project:
 
 ### Community
 Thread @ [68kmla](https://68kmla.org/bb/index.php?threads/design68-a-65-replacement-keyboard-using-appledesign-controllers.45326/)
+Thread @ [TinkerDifferent](https://tinkerdifferent.com/threads/design68-a-65-replacement-keyboard-using-appledesign-controllers.2952/)

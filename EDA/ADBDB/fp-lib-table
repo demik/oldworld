@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADBDB")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+  (lib (name "ADB_logo_5mm")(type "KiCad")(uri "${KIPRJMOD}/../lib/ADB_logo_5mm.pretty")(options "")(descr ""))
+)

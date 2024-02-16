@@ -6,7 +6,7 @@
 
   (title_block
     (title "ADBDB")
-    (date "2024-02-11")
+    (date "2024-02-16")
     (rev "1.1")
     (company "68kmla")
     (comment 1 "https://github.com/demik/oldworld/blob/master/EDA/ADBDB/README.md")
@@ -1094,7 +1094,7 @@
     (property "Reference" "C1" (at 72.771 106.7379 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "C" (at 72.771 109.1621 0)
+    (property "Value" "100nF" (at 72.771 109.1621 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (at 68.8848 104.14 0)

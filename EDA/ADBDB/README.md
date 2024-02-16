@@ -35,7 +35,7 @@ To sniff the data between a Macintosh and an ADB divice, set "Disable PIC host" 
 1. Connect the external power (+5V)
 2. Connect the Mac ADB port to the host side (left)
 3. Connect the ADB device on the device side (right)
-4. Connect a TTL UART to the analyzer header and launch an analyzer session
+4. Connect a TTL UART to the analyzer header and run a session
 
 Example of session of a Quadra 650 booting with a mouse attached:
 
@@ -85,10 +85,11 @@ As of early 2024, everything can be bough brand new, there is no need to reclaim
 | SW1, SW2              | 3 SW       | 2        | 3 positions DIP switches assembly      | TRU 704837            |
 | U1, U2, U3            | PIC        | 3        | 8-bit Microcontrollers DIP PIC12F1840  | MC PIC12F1840-I/P     |
 | U5                    | NE555      | 1        | 555 PDIP timer and support IC          | Texas NE555P          |
+| BAR1                  | 10 LEDs    | 1        | 10 units LED light bar                 | Lite-On LTA-1000Y     |
 
 … and a couple of pin headers (3 x 4 pins + 1 x 3 pins), a jumper and 4 DIP 8 sockets
 
-The gerbers files are downloadable here
+The gerbers files are downloadable [here](https://github.com/demik/oldworld/releases/download/ADBDB%2Fv1.1.0/ADBDB.zip)
 
 ### Community
 Thread @ [68kmla](https://68kmla.org/bb/index.php?threads/tashtaris-adb-tools-also-a-plea-for-rare-devices.42617/)

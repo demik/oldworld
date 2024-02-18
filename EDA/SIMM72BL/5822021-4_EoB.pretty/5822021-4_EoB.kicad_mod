@@ -1,0 +1,250 @@
+(footprint "5822021-4_EoB" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "5822021-4-2")
+  (tags "Connector")
+  (attr through_hole)
+  (fp_text reference "J**" (at -0.365 -1.27) (layer "B.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
+    (tstamp 6d7208af-f4e8-428a-b057-73a36f35d195)
+  )
+  (fp_text value "58220214" (at -0.365 -1.27) (layer "B.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
+    (tstamp de4c70f1-edab-4ba1-979a-301065066bd0)
+  )
+  (fp_text user "${REFERENCE}" (at -0.365 -1.27) (layer "B.Fab")
+      (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
+    (tstamp 71b5f2ef-7a22-4904-9b29-a6e5bc7e3c55)
+  )
+  (pad "1" connect roundrect (at -47.99 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 836ec2ba-e7ac-4e6c-880c-c7c49028b5ce))
+  (pad "2" connect roundrect (at -46.99 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 47f584f0-c395-46cb-be94-8da5b3727928))
+  (pad "3" connect roundrect (at -45.45 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp b076c5cb-e6bc-44fe-9ffb-8f0db76130fe))
+  (pad "4" connect roundrect (at -44.45 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 181ae871-5218-48f5-87ba-e38b65a062a7))
+  (pad "5" connect roundrect (at -42.91 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 6889f603-2490-4004-a460-59003fa228b8))
+  (pad "6" connect roundrect (at -41.91 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp a1af0b36-651e-4ce1-ad77-fb0aebca5c83))
+  (pad "7" connect roundrect (at -40.37 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp df44264b-a4d0-44e9-a57a-76582fc606ef))
+  (pad "8" connect roundrect (at -39.37 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 81850ee7-f1ec-49bd-b90c-06f7fdb538d9))
+  (pad "9" connect roundrect (at -37.83 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 06212fc7-e45a-481e-976e-2f3688783fef))
+  (pad "10" connect roundrect (at -36.83 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp e9cd9095-4e18-4ffc-a7c3-e5791346cde3))
+  (pad "11" connect roundrect (at -35.29 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 31517d72-5c8e-4691-bccb-29b6860f18f4))
+  (pad "12" connect roundrect (at -34.29 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 847c387f-f282-4e41-92fd-9313763b706b))
+  (pad "13" connect roundrect (at -32.75 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp d193b12b-8372-401b-9d22-8816644ee15f))
+  (pad "14" connect roundrect (at -31.75 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 1ba13489-cd02-4c24-9485-c2c5d5572322))
+  (pad "15" connect roundrect (at -30.21 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 037d1b74-1a83-49ee-ae26-7f011cb58bff))
+  (pad "16" connect roundrect (at -29.21 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 9b59dc08-df7e-4212-88d4-e46bed2c3652))
+  (pad "17" connect roundrect (at -27.67 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp b5e03569-647f-47d1-b8b8-0e92d7c62b3c))
+  (pad "18" connect roundrect (at -26.67 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 2b502743-537e-445e-bd6f-ed74451109b3))
+  (pad "19" connect roundrect (at -25.13 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 35811dbd-d3a0-4e4f-81e6-fb40adfff756))
+  (pad "20" connect roundrect (at -24.13 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 6b0940d1-3c0e-47e6-8d92-b2068bebf569))
+  (pad "21" connect roundrect (at -22.59 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp c2659268-0e17-45a7-9119-e38208822045))
+  (pad "22" connect roundrect (at -21.59 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 05b4fc25-9052-4508-ad3a-6c33a28b4faa))
+  (pad "23" connect roundrect (at -20.05 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 150008d5-3be5-4fea-b358-ecadf38ee005))
+  (pad "24" connect roundrect (at -19.05 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 858abbe2-0d8b-4659-807e-89899c8febb1))
+  (pad "25" connect roundrect (at -17.51 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 2bc96f89-2ead-4255-bc8b-0abc68e7b035))
+  (pad "26" connect roundrect (at -16.51 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp b313d886-60e8-4cd2-bc8b-14de7cfab51f))
+  (pad "27" connect roundrect (at -14.97 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 59a69234-8ebd-4e81-9913-fb8a0e9c11ce))
+  (pad "28" connect roundrect (at -13.97 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 2fea99e5-c6b2-45ab-bf15-4fdc8370a6df))
+  (pad "29" connect roundrect (at -12.43 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp cc0fa19c-4a18-4f49-8682-191d425f9692))
+  (pad "30" connect roundrect (at -11.43 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 40cf12fb-2128-4016-bbf5-863ceabf2c45))
+  (pad "31" connect roundrect (at -9.89 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp c5716cfa-9b5d-41c3-bb4c-0c3a04531c81))
+  (pad "32" connect roundrect (at -8.89 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 4f86e817-bc1c-49b1-8ff9-0f9dabd8f9f9))
+  (pad "33" connect roundrect (at -7.35 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp f03e2096-9ffb-4ee1-b04d-397791f503a8))
+  (pad "34" connect roundrect (at -6.35 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp a5d96c60-160b-4c05-bc2a-88a1dfeb014f))
+  (pad "35" connect roundrect (at -4.81 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 00864630-e97e-477d-ba64-982b3199a709))
+  (pad "36" connect roundrect (at -3.81 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 8c5a6b97-cdba-4b98-b3fa-34a1fd7f65a2))
+  (pad "37" connect roundrect (at 2.81 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp f4fc29b9-1672-400b-9ebb-c955f28dcee8))
+  (pad "38" connect roundrect (at 3.81 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp bae88d14-c68b-4d8a-81c3-47afe5e649bc))
+  (pad "39" connect roundrect (at 5.35 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 90d1616a-996f-4edf-b590-d5b71645a28a))
+  (pad "40" connect roundrect (at 6.35 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp a4c31fe1-cb3e-4de2-bdb3-f50165e2dae1))
+  (pad "41" connect roundrect (at 7.89 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp b53bc934-5f58-4e50-9c68-87b24cb163cd))
+  (pad "42" connect roundrect (at 8.89 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp e9f6cff5-6694-45d2-b416-57fe7abf9857))
+  (pad "43" connect roundrect (at 10.43 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 7a532eb1-bf51-46dc-bdf2-3a2cac4f5b83))
+  (pad "44" connect roundrect (at 11.43 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 3a74f7c6-a44e-4379-8926-77d4db93a20d))
+  (pad "45" connect roundrect (at 12.97 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 091b4992-0986-42c8-baf5-d1ab144c00b7))
+  (pad "46" connect roundrect (at 13.97 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 341c5ac8-00ce-44f4-b9b6-66192332b676))
+  (pad "47" connect roundrect (at 15.51 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp cd7af7f4-21f3-4050-8507-3b07bdca315c))
+  (pad "48" connect roundrect (at 16.51 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp b266ffb1-247b-46a6-95cd-633e53ecbfcd))
+  (pad "49" connect roundrect (at 18.05 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 9dc2d256-9f13-4f8a-850a-40e6c3b91b86))
+  (pad "50" connect roundrect (at 19.05 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp cb9fe488-6bd8-4414-a908-e2930199b1c6))
+  (pad "51" connect roundrect (at 20.59 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 0cc4c0e1-0fe1-4ad9-99c0-601698203f3e))
+  (pad "52" connect roundrect (at 21.59 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp a0433592-ba39-44d8-9ed9-f98cafe203fc))
+  (pad "53" connect roundrect (at 23.13 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp e2dbbbcb-e11b-4247-9758-6b9109911efa))
+  (pad "54" connect roundrect (at 24.13 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 34e38e8c-30e5-4067-8260-8acdb4c78cf7))
+  (pad "55" connect roundrect (at 25.67 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 7f33d5d9-1482-4797-8613-9bb8d27f89c1))
+  (pad "56" connect roundrect (at 26.67 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 49be638b-6571-4b71-aa8b-3135c74571a1))
+  (pad "57" connect roundrect (at 28.21 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp bbb11dde-74a6-4499-b56c-fa10a0686caf))
+  (pad "58" connect roundrect (at 29.21 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp e3517a9e-6124-410c-845e-2a810a6a9d1e))
+  (pad "59" connect roundrect (at 30.75 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 6c1d78b9-72d8-4c97-bfd3-f9acb4eb3124))
+  (pad "60" connect roundrect (at 31.75 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 4b083ba8-35a4-4446-8f12-f9b5859e6360))
+  (pad "61" connect roundrect (at 33.29 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 9414ae5e-071f-4672-9ef9-91ee6af76673))
+  (pad "62" connect roundrect (at 34.29 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 23ddf5f1-c748-4174-a3b5-3f1cd467d7c7))
+  (pad "63" connect roundrect (at 35.83 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 2c711d94-fdcc-4114-a656-fc6b94c6dd86))
+  (pad "64" connect roundrect (at 36.83 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp f71286e9-c378-44d3-895a-c7162f273639))
+  (pad "65" connect roundrect (at 38.37 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 79506c07-768f-4ebd-9c2c-e044ce6119af))
+  (pad "66" connect roundrect (at 39.37 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp bcf92bc0-e142-424b-a17a-7607eca07a22))
+  (pad "67" connect roundrect (at 40.91 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 70d638d3-2167-4383-87bc-1e7398f39d55))
+  (pad "68" connect roundrect (at 41.91 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 349b4043-7a18-4f55-9e30-166590c3a4da))
+  (pad "69" connect roundrect (at 43.45 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp 12cf0802-352d-4cf5-bb31-29f50a0036ae))
+  (pad "70" connect roundrect (at 44.45 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 7be6008e-8cc6-481e-8980-b27158b2bf5b))
+  (pad "71" connect roundrect (at 45.99 0) (size 2 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_right) (tstamp cc3fa500-e6f4-4205-b16c-a088a83a0aba))
+  (pad "72" connect roundrect (at 46.99 0) (size 2 4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
+    (chamfer_ratio 0.2) (chamfer top_left) (tstamp 290bc633-b2c7-4a2a-96ee-ad5230c00dcd))
+  (group "" (id 5e66c95e-2292-440a-992f-d1fc432ccb57)
+    (members
+      05b4fc25-9052-4508-ad3a-6c33a28b4faa
+      181ae871-5218-48f5-87ba-e38b65a062a7
+      1ba13489-cd02-4c24-9485-c2c5d5572322
+      23ddf5f1-c748-4174-a3b5-3f1cd467d7c7
+      290bc633-b2c7-4a2a-96ee-ad5230c00dcd
+      2b502743-537e-445e-bd6f-ed74451109b3
+      2fea99e5-c6b2-45ab-bf15-4fdc8370a6df
+      341c5ac8-00ce-44f4-b9b6-66192332b676
+      349b4043-7a18-4f55-9e30-166590c3a4da
+      34e38e8c-30e5-4067-8260-8acdb4c78cf7
+      3a74f7c6-a44e-4379-8926-77d4db93a20d
+      40cf12fb-2128-4016-bbf5-863ceabf2c45
+      47f584f0-c395-46cb-be94-8da5b3727928
+      49be638b-6571-4b71-aa8b-3135c74571a1
+      4b083ba8-35a4-4446-8f12-f9b5859e6360
+      4f86e817-bc1c-49b1-8ff9-0f9dabd8f9f9
+      6b0940d1-3c0e-47e6-8d92-b2068bebf569
+      7be6008e-8cc6-481e-8980-b27158b2bf5b
+      81850ee7-f1ec-49bd-b90c-06f7fdb538d9
+      847c387f-f282-4e41-92fd-9313763b706b
+      858abbe2-0d8b-4659-807e-89899c8febb1
+      8c5a6b97-cdba-4b98-b3fa-34a1fd7f65a2
+      9b59dc08-df7e-4212-88d4-e46bed2c3652
+      a0433592-ba39-44d8-9ed9-f98cafe203fc
+      a1af0b36-651e-4ce1-ad77-fb0aebca5c83
+      a4c31fe1-cb3e-4de2-bdb3-f50165e2dae1
+      a5d96c60-160b-4c05-bc2a-88a1dfeb014f
+      b266ffb1-247b-46a6-95cd-633e53ecbfcd
+      b313d886-60e8-4cd2-bc8b-14de7cfab51f
+      bae88d14-c68b-4d8a-81c3-47afe5e649bc
+      bcf92bc0-e142-424b-a17a-7607eca07a22
+      cb9fe488-6bd8-4414-a908-e2930199b1c6
+      e3517a9e-6124-410c-845e-2a810a6a9d1e
+      e9cd9095-4e18-4ffc-a7c3-e5791346cde3
+      e9f6cff5-6694-45d2-b416-57fe7abf9857
+      f71286e9-c378-44d3-895a-c7162f273639
+    )
+  )
+  (group "" (id 41d162e1-37c0-4f27-95a6-08642d6ad77b)
+    (members
+      00864630-e97e-477d-ba64-982b3199a709
+      037d1b74-1a83-49ee-ae26-7f011cb58bff
+      06212fc7-e45a-481e-976e-2f3688783fef
+      091b4992-0986-42c8-baf5-d1ab144c00b7
+      0cc4c0e1-0fe1-4ad9-99c0-601698203f3e
+      12cf0802-352d-4cf5-bb31-29f50a0036ae
+      150008d5-3be5-4fea-b358-ecadf38ee005
+      2bc96f89-2ead-4255-bc8b-0abc68e7b035
+      2c711d94-fdcc-4114-a656-fc6b94c6dd86
+      31517d72-5c8e-4691-bccb-29b6860f18f4
+      35811dbd-d3a0-4e4f-81e6-fb40adfff756
+      59a69234-8ebd-4e81-9913-fb8a0e9c11ce
+      6889f603-2490-4004-a460-59003fa228b8
+      6c1d78b9-72d8-4c97-bfd3-f9acb4eb3124
+      6d7208af-f4e8-428a-b057-73a36f35d195
+      70d638d3-2167-4383-87bc-1e7398f39d55
+      71b5f2ef-7a22-4904-9b29-a6e5bc7e3c55
+      79506c07-768f-4ebd-9c2c-e044ce6119af
+      7a532eb1-bf51-46dc-bdf2-3a2cac4f5b83
+      7f33d5d9-1482-4797-8613-9bb8d27f89c1
+      836ec2ba-e7ac-4e6c-880c-c7c49028b5ce
+      90d1616a-996f-4edf-b590-d5b71645a28a
+      9414ae5e-071f-4672-9ef9-91ee6af76673
+      9dc2d256-9f13-4f8a-850a-40e6c3b91b86
+      b076c5cb-e6bc-44fe-9ffb-8f0db76130fe
+      b53bc934-5f58-4e50-9c68-87b24cb163cd
+      b5e03569-647f-47d1-b8b8-0e92d7c62b3c
+      bbb11dde-74a6-4499-b56c-fa10a0686caf
+      c2659268-0e17-45a7-9119-e38208822045
+      c5716cfa-9b5d-41c3-bb4c-0c3a04531c81
+      cc0fa19c-4a18-4f49-8682-191d425f9692
+      cc3fa500-e6f4-4205-b16c-a088a83a0aba
+      cd7af7f4-21f3-4050-8507-3b07bdca315c
+      d193b12b-8372-401b-9d22-8816644ee15f
+      de4c70f1-edab-4ba1-979a-301065066bd0
+      df44264b-a4d0-44e9-a57a-76582fc606ef
+      e2dbbbcb-e11b-4247-9758-6b9109911efa
+      f03e2096-9ffb-4ee1-b04d-397791f503a8
+      f4fc29b9-1672-400b-9ebb-c955f28dcee8
+    )
+  )
+  (model "5822021-4.stp"
+    (offset (xyz -47.61999822 1.840000006 4.659999777))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

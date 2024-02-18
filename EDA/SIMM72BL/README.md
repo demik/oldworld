@@ -2,10 +2,10 @@
 
 SIMM 72 BlinkenLights
 
-This is an interposer 72 pins memory SIMM tool for troubleshooting purposes
+This is an interposer 72 pins memory SIMM tool for troubleshooting purposesi.
 It was created to debug stuck lines on a memory controller, but you can probably use it to debug some bad memory chips as well
 
-The top of the board has pads for probing, and you can solder an inline SIMM socket here as well
+The top of the board has pads for probing, and you can solder an inline SIMM socket here as well.
 Each line has its on activity LED
 
 ![SIMM72BL](Images/SIMM72BL.jpeg)
@@ -19,7 +19,7 @@ Don't break your existing SIMM socket
 PCB thickness should be 1.2 milimeters 
 
 This has been designed to use only basic components, and can be build by your favorite PCBA service.
-The corrected bom + position files for JLCPCB assembly are avaiable inside the SMT subdirectory. You will still need to buy the SIMM connector if you want to support an inline memory module
+The corrected bom + position files for JLCPCB assembly are avaiable inside the [SMT](https://github.com/demik/oldworld/tree/master/EDA/SIMM72BL/SMT) subdirectory. You will still need to buy the SIMM connector if you want to support an inline memory module
 
 Full BOM if you want to build it from scratch:
 

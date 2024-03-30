@@ -70,7 +70,7 @@ The second Molex connector isn't mandatory, you can solder directly wires, but i
 
 There is a second smaller PCB which is only build for cosmetic reasons
 
-The gerbers files are downloadable [here](https://github.com/demik/oldworld/releases/download/SIMM72BL%2Fv1.1.0/SIMM72BL.zip)
+The gerbers files are downloadable [here](https://github.com/demik/oldworld/releases/download/NUBUSPAS16-DB%2Fv1.0.0/PAS16DB.zip) and the panel is [here](https://github.com/demik/oldworld/releases/download/NUBUSPAS16-DB%2Fv1.0.0/PAS16DB_Panel.zip)
 
 ### Community
 Thread @ [68kmla](https://68kmla.org/bb/index.php?threads/nubuspas16-db-a-daughterboard-hack-to-restore-some-functionality-of-a-standalone-mediavision-pas16.47076/)

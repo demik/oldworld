@@ -10,5 +10,6 @@ A few projects are useable as is:
 - [NUBUSPAS16-DB](/EDA/NUBUSPAS16-DB): A daughter board for the MediaVision NuBus PAS 16
 - [PAL16R LART](/EDA/PAL16R%20LART): PAL16R small helper PCB for reversing PAL16Rs 
 - [SIMM72BL](/EDA/SIMM72BL): A SIMM72 memory module interposer/debug board
+- [VIA PLCC2DIP](/EDA/VIA%20PLCC2DIP): Simple PLCC to DIP 6522 VIA Adapter
 
 Other stuff is WIP

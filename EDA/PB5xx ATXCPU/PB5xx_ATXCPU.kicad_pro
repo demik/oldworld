@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -59,14 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|78200001|78200001|00000000-0000-0000-0000-000061a59d40|00000000-0000-0000-0000-000061a59d6a",
-        "courtyards_overlap|78200001|81200001|00000000-0000-0000-0000-000061a59d40|00000000-0000-0000-0000-000061a59d7f",
-        "courtyards_overlap|78200001|81200001|00000000-0000-0000-0000-000061a59d55|00000000-0000-0000-0000-000061a59d6a",
-        "courtyards_overlap|78200001|81200001|00000000-0000-0000-0000-000061a59d55|00000000-0000-0000-0000-000061a59d7f",
-        "courtyards_overlap|78799999|81200001|00000000-0000-0000-0000-000061a59d40|00000000-0000-0000-0000-000061a59d55",
-        "courtyards_overlap|81799999|81200001|00000000-0000-0000-0000-000061a59d6a|00000000-0000-0000-0000-000061a59d7f",
-        "lib_footprint_issues|65468500|82508000|00000000-0000-0000-0000-000061a5b06e|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|65000000|85009057|00000000-0000-0000-0000-000061a5ac54|00000000-0000-0000-0000-000000000000",
+        "extra_footprint|67000000|87500000|00000000-0000-0000-0000-000061a5ac54|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|60000000|71000000|00000000-0000-0000-0000-000061a59c96|98da3dae-486f-4300-9cdf-44bfcf4ec199",
         "silk_edge_clearance|60000000|72000000|00000000-0000-0000-0000-000061a59c96|2011eb17-1a34-4942-832a-b76a6d1e3425",
         "silk_edge_clearance|60000000|73000000|00000000-0000-0000-0000-000061a59c96|3964e7d7-8d67-4663-869b-9cf04b341d28",
@@ -144,7 +137,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -476,7 +469,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -513,9 +506,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "Net-(D1-A)": "SMT"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -524,10 +515,6 @@
       {
         "netclass": "Default",
         "pattern": "GND"
-      },
-      {
-        "netclass": "SMT",
-        "pattern": "SMT"
       }
     ]
   },

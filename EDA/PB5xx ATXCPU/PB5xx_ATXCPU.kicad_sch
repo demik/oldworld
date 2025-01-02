@@ -6,122 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "PB5xx ATXCPU")
-		(date "2023-07-13")
-		(rev "1.2")
+		(date "2025-01-02")
+		(rev "1.3")
 		(company "Lostwave")
 		(comment 1 "https://68kmla.org")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x02_Top_Bottom"
 			(pin_names
 				(offset 1.016) hide)
@@ -691,11 +581,107 @@
 				)
 			)
 		)
+		(symbol "PWR_FLAG_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -793,8 +779,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -813,9 +799,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -889,8 +875,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -972,7 +958,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1030,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 100.33) (xy 46.99 100.33)
+			(xy 43.18 100.33) (xy 49.53 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1057,6 +1043,26 @@
 			(type default)
 		)
 		(uuid "26b4d1dd-bd65-4b97-9ac1-cd6819ac6c06")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a131570-34c6-484e-a103-f57cad31d177")
+	)
+	(wire
+		(pts
+			(xy 52.07 93.98) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4767e07e-1b40-450e-b748-1d7581df6f9f")
 	)
 	(polyline
 		(pts
@@ -1098,6 +1104,16 @@
 		)
 		(uuid "58cc117a-d69d-4c1b-b64f-0bd3fdc524cc")
 	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60adf977-b929-44ee-b3c2-f1dca1a68fdf")
+	)
 	(polyline
 		(pts
 			(xy 25.4 114.3) (xy 88.9 114.3)
@@ -1110,7 +1126,27 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 90.17) (xy 44.45 90.17)
+			(xy 64.77 93.98) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6311e30f-029f-48f8-a932-00a7a879968f")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eacaa55-454c-4564-9369-7b5720edb3f4")
+	)
+	(wire
+		(pts
+			(xy 44.45 90.17) (xy 49.53 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1127,6 +1163,16 @@
 			(type default)
 		)
 		(uuid "7e489d67-f6e7-4251-ba78-2b274f0ba9e8")
+	)
+	(wire
+		(pts
+			(xy 67.31 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e63f2a1-cced-4ef2-997c-9b16a8d587e3")
 	)
 	(wire
 		(pts
@@ -1150,26 +1196,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 90.17) (xy 72.39 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9511dfe2-f775-489a-b0a4-b436f8a065b8")
-	)
-	(wire
-		(pts
-			(xy 69.85 100.33) (xy 73.66 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9536e1-e694-441f-905a-53dfa2661c3c")
-	)
-	(wire
-		(pts
 			(xy 185.42 97.79) (xy 177.8 97.79)
 		)
 		(stroke
@@ -1187,6 +1213,46 @@
 			(type default)
 		)
 		(uuid "b100445f-2a46-405b-bab9-1063e063c69c")
+	)
+	(wire
+		(pts
+			(xy 49.53 100.33) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2409303-b21b-4df4-b1d5-e71b8fcfa352")
+	)
+	(wire
+		(pts
+			(xy 67.31 96.52) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b00d6a-6e4f-4e2a-842e-7830a05310bb")
+	)
+	(wire
+		(pts
+			(xy 49.53 96.52) (xy 52.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f94d41-6d01-4660-a53c-eae9a94e9965")
+	)
+	(wire
+		(pts
+			(xy 49.53 93.98) (xy 49.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a5e942-097a-4a6b-b853-0731c37a8086")
 	)
 	(wire
 		(pts
@@ -1229,299 +1295,17 @@
 		)
 		(uuid "56e0dee3-72e9-4532-acbe-ba776d8cb3f7")
 	)
-	(text "PowerBook 5xx Power Connector.\n\nAs seen from above. Rear of the board (where all connectors are) is top of the sheet."
+	(text "PowerBook 5xx Power Connector.\nAs seen from above. Rear of the board (where all connectors are) is top of the sheet.\n\nConnector on the board is like 3mm pitch but standards 2.54mm fits with some motivation"
 		(exclude_from_sim no)
-		(at 27.94 123.19 0)
+		(at 27.178 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(italic yes)
 			)
 			(justify left bottom)
 		)
 		(uuid "d4d28b5b-2181-4e5c-a1bc-8a1334b37556")
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 241.3 101.6 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd1d79f9-5f3d-4609-ac87-75f87b6ae735")
-		(property "Netclass" "SMT"
-			(at 238.76 100.9904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 52.07 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061a57265")
-		(property "Reference" "J1"
-			(at 54.102 89.1032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND Sense"
-			(at 41.91 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 52.07 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b3b036d-6830-4f88-944d-ad3882dbff6c")
-		)
-		(instances
-			(project "PB5xx_ATXCPU"
-				(path "/91fd4732-ca9e-4426-a3cd-441e2bb85915"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 52.07 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061a588a6")
-		(property "Reference" "J2"
-			(at 54.102 99.2632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PWR Battery"
-			(at 40.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3ba3b95-f1fa-4ca2-a670-0bc998a05c8a")
-		)
-		(instances
-			(project "PB5xx_ATXCPU"
-				(path "/91fd4732-ca9e-4426-a3cd-441e2bb85915"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 64.77 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061a590e5")
-		(property "Reference" "J3"
-			(at 64.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND Main"
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 64.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e6cb617-10f9-4e3d-b388-2b358d9b1613")
-		)
-		(instances
-			(project "PB5xx_ATXCPU"
-				(path "/91fd4732-ca9e-4426-a3cd-441e2bb85915"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 64.77 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061a5b8ee")
-		(property "Reference" "J4"
-			(at 64.77 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR Main"
-			(at 76.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2891875e-94d6-4607-b997-b0a8715dbe1a")
-		)
-		(instances
-			(project "PB5xx_ATXCPU"
-				(path "/91fd4732-ca9e-4426-a3cd-441e2bb85915"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1568,7 +1352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -1634,7 +1418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 44.45 90.17 0)
 			(effects
 				(font
@@ -1700,7 +1484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 73.66 100.33 0)
 			(effects
 				(font
@@ -1766,7 +1550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 43.18 100.33 0)
 			(effects
 				(font
@@ -1831,7 +1615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -1896,7 +1680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 203.2 88.9 0)
 			(effects
 				(font
@@ -1961,7 +1745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -1983,6 +1767,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
 		(at 203.2 97.79 180)
 		(unit 1)
@@ -2026,7 +1811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 203.2 97.79 0)
 			(effects
 				(font
@@ -2211,7 +1996,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 241.3 107.95 0)
 			(effects
 				(font
@@ -2297,7 +2082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 241.3 88.9 0)
 			(effects
 				(font
@@ -2319,6 +2104,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 57.15 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd5c071-f9c4-473e-a78e-c8cd437161e2")
+		(property "Reference" "J6"
+			(at 58.42 90.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Top_Bottom"
+			(at 58.42 90.9898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cd21a10-eeb3-4d9f-8fca-bec854c65c5c")
+		)
+		(pin "1"
+			(uuid "5385cc10-b5a2-49e2-b276-1c18db9663c2")
+		)
+		(pin "3"
+			(uuid "fe4b3e55-aecd-4745-94b6-6e02e24954de")
+		)
+		(pin "4"
+			(uuid "251fced3-dc5e-4cde-bb94-bc4952f45e97")
+		)
+		(instances
+			(project ""
+				(path "/91fd4732-ca9e-4426-a3cd-441e2bb85915"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 241.3 95.25 0)
 		(unit 1)
@@ -2329,7 +2189,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b840fc2-5222-4b52-b4cf-27de73dc6dd9")
 		(property "Reference" "R1"
-			(at 243.078 94.6063 0)
+			(at 243.078 94.0378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,8 +2197,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4300"
-			(at 243.078 96.5273 0)
+		(property "Value" "2200"
+			(at 243.078 96.4621 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2346,7 +2206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 239.522 95.25 90)
 			(effects
 				(font
@@ -2432,7 +2292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 114.3 0)
 			(effects
 				(font

@@ -38,4 +38,4 @@ Full BOM if you want to build it from scratch:
 
 The SIMM connector pin spacing doesn't really match the PCB thickness. You will want to solder the back first with the pins flat, then bent the pins slightly on the front side, and use a little bit more solder than usual
 
-The gerbers files are downloadable [here](https://github.com/demik/oldworld/releases/download/SIMM72BL%2Fv1.1.0/SIMM72BL.zip)
+The gerbers files are downloadable [here](https://github.com/demik/oldworld/releases/download/SIMM72BL%2Fv1.2.0/SIMM72BL_1.2.zip)

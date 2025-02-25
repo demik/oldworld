@@ -3336,12 +3336,13 @@
 	)
 	(symbol "LC_PDS"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.508)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 40.64 0)
+			(at 4.826 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,11 +3350,12 @@
 			)
 		)
 		(property "Value" "LC_PDS"
-			(at 0 -43.18 0)
+			(at 5.588 -43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3407,6 +3409,19 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "LC_PDS_0_1"
+			(rectangle
+				(start -1.27 39.37)
+				(end 12.7 -41.91)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
 			)
 		)
 		(symbol "LC_PDS_1_1"
@@ -3760,17 +3775,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 39.37)
-				(end 1.27 -41.91)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(pin input line
@@ -4703,17 +4707,6 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start -1.27 39.37)
-				(end 1.27 -41.91)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin power_out line
 				(at -5.08 38.1 0)
 				(length 3.81)
@@ -4876,7 +4869,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -5.08 -5.08 0)
 				(length 3.81)
 				(name "A31"
@@ -5642,17 +5635,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 39.37)
-				(end 1.27 -41.91)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 			(pin bidirectional inverted

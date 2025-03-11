@@ -1,0 +1,67 @@
+Name     VIAP ;
+PartNo   VIAP ;
+Date     10/03/2025 ;
+Revision 02 ;
+Designer demik ;
+Company  Lostwave ;
+Assembly None ;
+Location None ;
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+PIN 1   = SV0                     ; /* Input (Sound Volume bit0)       */ 
+PIN 2   = SV1                     ; /* Input (Sound Volume bit1)       */ 
+PIN 3   = SV2                     ; /* Input (Sound Volume bit2)       */ 
+PIN 4   = OVL                     ; /* Input (ROM Overlay)             */ 
+PIN 5   = VS16                    ; /* Input (Screen VSYNC / 16)       */ 
+PIN 6   = ONESEC                  ; /* 1Hz interrupt (from RTC)        */ 
+PIN 7   = RESET                   ; /* Reset signal                    */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN 12  = DP                      ; /* Combinatorial output            */ 
+PIN 13  = G                       ; /* Combinatorial output            */  
+PIN 14  = F                       ; /* Combinatorial output            */ 
+PIN 15  = E                       ; /* Combinatorial output            */ 
+PIN 16  = D                       ; /* Combinatorial output            */ 
+PIN 17  = C                       ; /* Combinatorial output            */ 
+PIN 18  = B                       ; /* Combinatorial output            */ 
+PIN 19  = A                       ; /* Combinatorial output            */ 
+
+/* ************* OUTPUT EQUATIONS *******************/
+!DP = ONESEC & !RESET
+    # ONESEC & !VS16 & RESET
+    # !ONESEC & VS16 & RESET;
+
+!A  = SV1 & RESET & !OVL
+    # SV0 & SV2 & RESET & !OVL
+    # !SV0 & !SV2 & RESET & !OVL;
+
+!B  = !SV2 & RESET & !OVL
+    # SV0 & SV1 & RESET & !OVL
+    # !SV0 & !SV1 & RESET & !OVL;
+
+!C  = SV0 & RESET & !OVL
+    # !SV1 & RESET & !OVL
+    # SV2 & RESET & !OVL
+    # RESET & OVL;
+
+!D  = !SV0 & SV1 & RESET & !OVL
+    # !SV0 & !SV2 & RESET & !OVL
+    # SV1 & !SV2 & RESET & !OVL
+    # SV0 & !SV1 & SV2 & RESET & !OVL
+    # RESET & OVL;
+
+!E  = !SV0 & SV1 & RESET & !OVL
+    # !SV0 & !SV2 & RESET & !OVL
+    # !RESET
+    # RESET & OVL;
+
+!F  = !SV0 & !SV1 & RESET & !OVL
+    # !SV0 & SV2 & RESET & !OVL
+    # !SV1 & SV2 & RESET & !OVL;
+
+!G  = !SV1 & SV2 & RESET & !OVL
+    # SV1 & !SV2 & RESET & !OVL
+    # !SV0 & SV2 & RESET & !OVL
+    # !RESET
+    # RESET & OVL;

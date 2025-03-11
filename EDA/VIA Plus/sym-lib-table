@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "VIA Plus")(type "KiCad")(uri "${KIPRJMOD}/lib/LDS-A3502RD-SUG.kicad_sym")(options "")(descr ""))
+)

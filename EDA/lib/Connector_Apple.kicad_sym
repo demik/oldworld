@@ -3358,7 +3358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_DIN:DIN41612_C_3x32_Female_Vertical_THT"
 			(at 0 0 0)
 			(effects
 				(font

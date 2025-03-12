@@ -11,5 +11,6 @@ A few projects are useable as is:
 - [PAL16R LART](/EDA/PAL16R%20LART): PAL16R small helper PCB for reversing PAL16Rs 
 - [SIMM72BL](/EDA/SIMM72BL): A SIMM72 memory module interposer/debug board
 - [VIA PLCC2DIP](/EDA/VIA%20PLCC2DIP): Simple PLCC to DIP 6522 VIA Adapter
+- [VIA Pus](/EDA/VIA%20Plus): Macintosh 128k/512k/Plus diagnostic board replacing the VIA
 
 Other stuff is WIP

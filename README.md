@@ -13,4 +13,9 @@ A few projects are useable as is:
 - [VIA PLCC2DIP](/EDA/VIA%20PLCC2DIP): Simple PLCC to DIP 6522 VIA Adapter
 - [VIA Pus](/EDA/VIA%20Plus): Macintosh 128k/512k/Plus diagnostic board replacing the VIA
 
+### Moved
+Theses have been moved to their own repositories
+- [Quack](https://github.com/demik/quack): Bluetooth and ADB Mouse Converter for some old Apple computers
+- [MacSnap SCSI](https://github.com/demik/MacSnap-SCSI): SCSI Card for the Macintosh 512Ke
+
 Other stuff is WIP

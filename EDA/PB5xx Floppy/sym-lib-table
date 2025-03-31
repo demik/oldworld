@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name G125-MV12005L0P)(type Legacy)(uri ${KIPRJMOD}/G125-MV12005L0P.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "52045-1645")(type "KiCad")(uri "${KIPRJMOD}/52045-1645.kicad_sym")(options "")(descr ""))
+  (lib (name "G125-MV12005L0P")(type "KiCad")(uri "${KIPRJMOD}/G125-MV12005L0P.kicad_sym")(options "")(descr ""))
 )

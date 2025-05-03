@@ -31,7 +31,7 @@ Both RTC and VSYNC pulses are displayed using the decimal point LED. A 1Hz blink
 ### Building, BOM
 - One PLCC-44 Through-hole socket
 - Machine pin headers (2x20)
-- ATF16V8B-15PU or equivalent (most GALs are likely to work)
+- ATF16V8B(QL)-15PU or equivalent (most GALs are likely to work)
 - 74LS161 HC series will likely work
 - 74LS244 or any other 244 than can drive 8mA drive per pin
 - 8x 470Ωstandard 0.25W carbon film resistor

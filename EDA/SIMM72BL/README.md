@@ -2,7 +2,7 @@
 
 SIMM 72 BlinkenLights
 
-This is an interposer 72 pins memory SIMM tool for troubleshooting purposesi.
+This is an interposer 72 pins memory SIMM tool for troubleshooting purposes.
 It was created to debug stuck lines on a memory controller, but you can probably use it to debug some bad memory chips as well
 
 The top of the board has pads for probing, and you can solder an inline SIMM socket here as well.

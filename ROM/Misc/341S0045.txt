@@ -1,0 +1,5 @@
+This is the ROM dump from the PMU of the blackbird series.
+Dumped two times on two different 520 boards so the dump should be accurate.
+
+the PMU akaxxi "Power Manager IC" is 68HC05 microprocessor that operates with its own RAM and ROM.
+This is supposedly its ROM.

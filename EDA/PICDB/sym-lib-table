@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Connector_Apple")(type "KiCad")(uri "${KIPRJMOD}/../lib/Connector_Apple.kicad_sym")(options "")(descr ""))
+  (lib (name "SN75175DR")(type "KiCad")(uri "${KIPRJMOD}/SN75175DR.kicad_sym")(options "")(descr ""))
+)

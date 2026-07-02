@@ -5,6 +5,7 @@ This is my sandbox repository. Once project has reached a quality level that fee
 
 ### Finished
 A few projects are useable as is:
+- [68k-nano+](/EDA/68k-nano+): A variant of the 68k-nano board by Matt Sarnoff 
 - [ADBDB](/EDA/ADBDB): Apple Desktop Bus developer/debug board 
 - [Design68](/EDA/Design68): 65% DIY mechanical keyboard using AppleDesign controllers
 - [NUBUSPAS16-DB](/EDA/NUBUSPAS16-DB): A daughter board for the MediaVision NuBus PAS 16

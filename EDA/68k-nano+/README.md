@@ -5,11 +5,13 @@ Motorola 68000 16/32-bit microprocessor.
 
 ![Board image](images/board.jpg)
 
-This is a variant from the original that Matt Sarnoff designed and published ["here"](https://github.com/74hc595/68k-nano).
+This is a variant from the original that Matt Sarnoff designed and published ["here"](https://github.com/74hc595/68k-nano). 
 
 It was created to use 16550 UARTs in PLCC-44 form that are avaiable brand new instead of playing the lottery with old parts (the DIP variant from the original board isn't manufactured anymore)
 
 There is also a small memorymap helper which tiddy up the memory map (see below). It is totally optional.
+
+This variant is named 68k-nano+ (because of the PLCC socket and the extra memory helper) to differentiate it from the original one.
 
 ## Features
 
@@ -127,6 +129,8 @@ If not using the additional memory helper, do not populate R8, R9 and U9. Jumer 
 
 - U9 pin 3 to U9 pin 6
 - U9 pin 2 to U9 pin 5
+
+The gerbers files can be downloaded from the [releases section](https://github.com/demik/oldworld/releases/download/68k-nano%2B%2Fv1P/68k_nano+_1P.zip)
 
 ## Additional information
 

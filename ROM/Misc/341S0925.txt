@@ -1,0 +1,1 @@
+This is the ROM dump of the internal video DeclROM (slot $C) on PowerBook 165c & 180c
